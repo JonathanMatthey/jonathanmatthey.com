@@ -1,0 +1,23 @@
+---
+layout: default
+title: TK
+---
+
+<ul class="projects">
+{% for post in site.posts %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <span>
+          {{ post.date | date_to_string }}
+        </span> 
+        <span>
+          {{ post.title }}
+        </span>
+      </a>
+      <img class="thumb" src="img/{{ post.uid }}.jpg" />
+      <div class="aspect-two-one"></div>
+    </div>
+  </li>
+{% endfor %}
+</ul>

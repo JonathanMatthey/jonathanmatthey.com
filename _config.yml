@@ -1,0 +1,5 @@
+name: TK
+description: TK
+author: TK
+analytics: UAXXXXXXXX1
+exclude: [ _design, README ]
