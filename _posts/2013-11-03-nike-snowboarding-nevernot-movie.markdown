@@ -1,9 +1,9 @@
 ---
 layout: post
 uid: nikenevernot
-title:  "Welcome to Jekyll!"
+title:  "Nike Snowboarding - nevernotmovie.com"
 date:   2013-12-11 09:35:01
-categories: jekyll update
+categories: jekyll update dev design
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

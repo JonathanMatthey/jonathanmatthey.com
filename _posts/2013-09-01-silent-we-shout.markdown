@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+uid: silentweshout
+title:  "Silentweshout"
 date:   2013-09-11 09:35:01
 categories: jekyll update
 ---

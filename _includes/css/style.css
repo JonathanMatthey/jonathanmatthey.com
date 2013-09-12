@@ -467,26 +467,7 @@ td {
 
   /* ==|== media queries ====================================================== */
 
-  @media only screen and (max-width: 480px) {
 
-    header nav {
-      display: none;
-    }
-
-    header nav.mobile-nav {
-      display: block;
-    };
-  }
-
-  @media only screen and (max-width: 600px) {
-    header h1 {
-      display: none;
-    }
-
-    header .initials {
-      display: inline-block;
-    };
-  }
 
   @media only screen and (max-width: 1024px) {
     header {
@@ -500,10 +481,7 @@ td {
     }
 
     .projects li {
-      display: inline-block;
-      list-style: none;
       width: 50%;
-      float: left;
     }
 
     #container {
@@ -515,12 +493,34 @@ td {
     };
   }
 
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      display: none;
+    }
+
+    header .initials {
+      display: inline-block;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+
+    header nav {
+      display: none;
+    }
+
+    header nav.mobile-nav {
+      display: block;
+    }
+
+    .projects li {
+      width: 100%;
+    }
+  }
+
   @media only screen and (min-width: 1900px) {
     .projects li {
-      display: inline-block;
-      list-style: none;
       width: 25%;
-      float: left;
     };
   }
 
