@@ -1,8 +1,8 @@
 ---
 layout: post
-uid: nikecom
+uid: vintagefashionguide
 title:  "Welcome to Jekyll!"
-date:   2013-10-31 16:35:01
+date:   2013-10-31 18:35:01
 categories: jekyll update
 ---
 

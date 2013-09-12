@@ -1,8 +1,8 @@
 ---
 layout: post
-uid: uk2groupbackbone
+uid: uk2groupbackbonejs
 title:  "uk2group backbonejs control panel"
-date:   2013-09-11 09:35:01
+date:   2013-10-31 19:35:01
 categories: jekyll update
 ---
 
