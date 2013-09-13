@@ -288,17 +288,24 @@ td {
   }
 
   header {
-    border-top: 10px solid black;
+    padding-top:30px;
+    padding-bottom:30px;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     position: fixed;
     width: calc(100% - 60px);
     left: 30px;
-    top: 30px;
-    height: 38px;
-    border-bottom: 1px solid #000;
+    top: 0px;
+    height: 50px;
     z-index: 9;
+    background-color:white;
+  }
+
+  header .inner{
+    border-top: 10px solid black;
+    border-bottom: 1px solid #000;
+    position: relative;
   }
 
   header h1, header .initials {
@@ -325,9 +332,9 @@ td {
   }
 
   header .sub-nav {
-    position: absolute;
     right: 0;
-    top:0;
+    top: 0;
+    position: absolute;
   }
 
   header .mobile-nav {
@@ -471,9 +478,10 @@ td {
 
   @media only screen and (max-width: 1024px) {
     header {
-      top: 15px;
+      top: 0px;
       width: calc(100% - 30px);
       left: 15px;
+      padding: 15px 0 15px;
     }
 
     .projects {

@@ -1,6 +1,6 @@
 ---
 layout: post
-uid: jpmorgan
+uid: jpmorgan2
 title:  "Welcome to Jekyll!"
 date:   2013-09-11 09:35:01
 categories: jekyll update
