@@ -1,6 +1,5 @@
 ---
 layout: post
-uid: philterit
 title:  "Welcome to Jekyll!"
 date:   2013-09-11 09:35:01
 categories: jekyll update
