@@ -21,7 +21,11 @@ title: Ideas
         </div>
       </a>
       {% if post.opensource %}
-        <span class="github-icon"></span>
+        {% if post.blackbg %}
+          <span class="github-icon light"></span>
+        {% else %}
+          <span class="github-icon"></span>
+        {% endif %}
       {% endif %}
       {% if post.progress %}
         <span class="progress">

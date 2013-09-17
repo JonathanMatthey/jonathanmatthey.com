@@ -496,7 +496,12 @@ td {
   .prev-project{
     left:30px;
   }
+  /* ==|== STATIC page styles ======================================== */
 
+  .static-page{
+    text-align: center;
+    padding-top:100px;
+  }
 
   /* ==|== POST page styles ======================================== */
 
@@ -566,6 +571,15 @@ td {
     z-index: -1;
     position: relative;
   }
+
+  .post-wide h2{
+    margin-top:100px;
+  }
+
+  .post-wide .showcase img{
+    max-width: 100%;
+  }
+
 
   /* ==|== non-semantic helper classes ======================================== */
   .ir {

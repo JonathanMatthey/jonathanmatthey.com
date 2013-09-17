@@ -11,9 +11,8 @@ opensource: true
 
 <p>
 	Writing a little crash course !
-
 </p>
 
-<p class="meta"><a href="http://www..com">www..com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href=""></a> </p>
+<p class="meta"><a href="http://www..com">www..com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href=""></a></p>
 
 
