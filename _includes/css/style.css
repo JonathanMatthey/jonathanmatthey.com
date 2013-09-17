@@ -2,7 +2,8 @@
  * ==|== normalize ==========================================================
  */
 
- article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
@@ -52,6 +53,7 @@ body, button, input, select, textarea {
 
 a {
   color: #00e;
+  -webkit-transition: color 200ms linear;
 }
 
 a:visited {
@@ -263,12 +265,13 @@ td {
 
 
 /* ==|== primary styles =====================================================
-   Author: 
+   Author:
    ========================================================================== */
 
   body {
     font-family: 'Open Sans', sans-serif;
     min-width: 100%;
+    display: none;
   }
 
   ul {
@@ -298,7 +301,7 @@ td {
     left: 30px;
     top: 0px;
     height: 50px;
-    z-index: 9;
+    z-index: 50;
     background-color:white;
   }
 
@@ -356,12 +359,62 @@ td {
 
   }
 
+  .github-icon{
+    background-image:url(img/github-icon.png);
+    background-size:30px 30px;
+    height:30px;
+    width:30px;
+  }
+  .github-icon.light{
+    background-image:url(img/github-icon-white.png);
+  }
+
+  .project .progress{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    z-index: 11;
+    width:100%;
+    height:50px;
+    background-color:rgba(255,255,255,0.3);
+    opacity: 0.5;
+  }
+
+  .project .progress .under-construction{
+    background-image:url(img/under-construction.png);
+    width:26px;
+    height:26px;
+    background-size:26px 26px;
+    position: absolute;
+    z-index: 11;
+    top:12px;
+    left:12px;
+  }
+
+  .project .progress-bar{
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 10;
+    height:100%;
+    background-color:rgba(255,255,255,0.8);
+  }
+
+  .project .github-icon{
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    opacity: 0.3;
+    z-index: 12;
+  }
+
   #container {
     margin-top: 80px;
+    margin-bottom: 30px;
   }
 
   .projects {
-    margin: 0 15px;
+    margin: 0 15px ;
   }
 
   .projects li {
@@ -378,10 +431,6 @@ td {
     position: relative;
   }
 
-  .projects li .project:hover .cover {
-    opacity: 1;
-  }
-
   .projects li .aspect-two-one {
     padding-bottom: 66.67%;
   }
@@ -390,27 +439,132 @@ td {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 6;
+    z-index: 15;
     opacity: 0;
     top: 0;
     left: 0;
     -webkit-transition: opacity 200ms linear;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.9);
     text-align: center;
   }
 
-  .projects .cover span {
-    line-height: 100%;
-    color: black;
+  .projects .cover:hover {
+    opacity: 1;
+    color:#333;
+  }
+
+  .projects .cover .project-details{
+    top:50%;
+    margin-top:-25px;
+    position: absolute;
+    height:50px;
+    width:100%;
+  }
+
+  .projects .cover .project-details span{
+    clear:both;
+    display: block;
+    line-height: 20px;
+    font-size:15px;
+    font-weight:bold;
   }
 
   .projects .thumb {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 5;
+    z-index:5;
     top: 0;
     left: 0;
+  }
+
+  /* ==|== Project Post links ======================================== */
+
+  .next-project, .prev-project{
+    position: fixed;
+    top:50%;
+    margin-top:-10px;
+    height:20px;
+    width:20px;
+    font-size:30px;
+    font-weight:bold;
+    font-family:arial;
+  }
+  .next-project{
+    right:30px;
+  }
+  .prev-project{
+    left:30px;
+  }
+
+
+  /* ==|== POST page styles ======================================== */
+
+  .post-container{
+    margin: 30px;
+  }
+
+  .post-narrow{
+    width: 940px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .post-narrow h2{
+    margin-top:100px;
+  }
+
+  .post p{
+    font-size:16px;
+    line-height: 24px;
+    max-width:620px;
+    color:#494949;
+    margin-bottom:20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear:both;
+  }
+
+  .post .meta{
+    color:#aaa;
+    font-size:12px;
+    margin-bottom:100px;
+  }
+
+  .post .showcase img{
+    margin-bottom: 100px;
+  }
+
+  .post .meta a,
+  .post .meta strong{
+    color:#494949;
+    font-size:12px;
+    font-weight:bold;
+  }
+  .post .meta a:hover{
+    color:blue;
+  }
+  .separator {
+    width: 460px;
+    height: 2px;
+    margin: 30px auto 30px auto;
+    background: #444;
+  }
+
+  .post-wide{
+    position: relative;
+    text-align: center;
+  }
+
+  .post-wide-hero{
+    margin-top:30px;
+    width:100%;
+    height:350px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
   }
 
   /* ==|== non-semantic helper classes ======================================== */
@@ -510,7 +664,7 @@ td {
       display: inline-block;
     }
   }
-  
+
   @media only screen and (max-width: 480px) {
 
     header nav {

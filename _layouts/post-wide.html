@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="post-wide-hero {{page.uid}}-hero" style="background-image:url(/img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
+<div class="post-container">
+  <div class="post post-wide">
+    <h2>{{ page.title }}</h2>
+    <!-- <div class="separator"></div> -->
+    {{ content }}
+  </div>
+</div>
+
+<a href="{{page.next.url}}" title="{{page.next.title}}" class="next-project">></a>
+<a href="{{page.previous.url}}" title="{{page.previous.title}}" class="prev-project"><</a>

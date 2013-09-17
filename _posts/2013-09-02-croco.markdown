@@ -1,0 +1,22 @@
+---
+layout: post-wide
+hero-bg-color: "#eee"
+uid: croco
+title:  "Croco Coding Convention Generator"
+worktype: "Development"
+date:   2013-09-02 15:35:01
+categories: project opensource
+opensource: true
+progress: 80
+---
+
+<p>
+	Croco is a coding convention generator for the web. It generates company or team wide coding conventions that can be hosted on git hub pages. It supports many languages, allows you to choose from industry predefined conventions and then easily extend them by updating markdown files.
+</p>
+<p>
+	Croco is an npm package, requiring node.js.
+</p>
+
+<p class="meta"><a href="http://www.crocojs.com">www.crocojs.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://github.com/manymengofishing/croco">http://github.com/manymengofishing/croco</a> </p>
+
+

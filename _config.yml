@@ -3,3 +3,5 @@ description: Portfolio
 author: Jonathan Matthey
 analytics: UAXXXXXXXX1
 exclude: [ _design, README ]
+# baseurl: "http://www.jonathanmatthey.com/redesign/_site/"
+baseurl: "/"

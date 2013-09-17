@@ -1,17 +1,20 @@
 $(document).ready(function(){
-  // resizeProjectThumbs();
-  $(window).resize(function(){
-    // resizeProjectThumbs();
+
+  // TODO - make this ajax so the header nav doesnt flash
+  $(".next-project, .prev-project").click(function(evt){
+    evt.preventDefault();
+    fadePageOut($(this).attr('href'));
   });
+  fadePageIn();
+
 });
 
-var thumbAspectRatio = 602 / 401;
+function fadePageOut(targetHref){
+  $("body").fadeOut(100, function(){
+    window.location.href = targetHref;
+  });
+}
 
-function resizeProjectThumbs(){
-  var windowWidth = $(window).width();
-  var newThumbWidth = (windowWidth - 130)/3;
-  var newThumHeight = newThumbWidth / thumbAspectRatio;
-  $(".projects li").css('width', newThumbWidth);
-  $(".projects li").css('height', newThumHeight);
-  $(".projects").css('width', windowWidth);
+function fadePageIn(){
+  $("body").fadeIn(200);
 }

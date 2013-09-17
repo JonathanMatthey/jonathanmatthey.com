@@ -1,9 +1,10 @@
 ---
-layout: post
-uid: nikecom
-title:  "Welcome to Jekyll!"
-date:   2013-09-11 09:35:01
-categories: jekyll update
+layout: post-narrow
+uid: one-nike-playbook
+title:  "One Nike Playbook"
+worktype: Development
+date:   2013-04-01 09:35:01
+categories: project
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
