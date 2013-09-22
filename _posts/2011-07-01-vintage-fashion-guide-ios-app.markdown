@@ -9,13 +9,16 @@ opensource: true
 ---
 
 <p>
-	London’s best vintage fashion shops and markets highlighted and mapped in this interactive magazine. My first iPad project, using MapKit and CoreData. Planned to expand to NYC, Melbourne and add push marketing campaign.
+	London’s best vintage fashion shops and markets mapped in this interactive magazine.
+</p>
+<p>
+	This was my first iPad project, using MapKit and CoreData.  Planned to expand to NYC, Melbourne and add push marketing campaign.
 </p>
 
 <p class="meta">Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.vintagefashionmag.com/">www.vintagefashionmag.com/</a></p>
 
 <div class="showcase">
 	<img src="/img/vintage-fashion-guide-ios-app/vintage-fashion-mag-london.jpg" alt="vintage-fashion-mag-london">
-  <iframe src="//player.vimeo.com/video/28765397" width="500" height="375" frameborder="0"> </iframe> 
+  <iframe src="//player.vimeo.com/video/28765397" width="500" height="375" frameborder="0"> </iframe>
 </div>
 

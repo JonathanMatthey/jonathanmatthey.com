@@ -492,10 +492,10 @@ td {
     font-family:arial;
   }
   .next-project{
-    right:30px;
+    left:30px;
   }
   .prev-project{
-    left:30px;
+    right:30px;
   }
   /* ==|== STATIC page styles ======================================== */
 
@@ -648,8 +648,8 @@ td {
   @media only screen and (max-width: 1024px) {
     header {
       top: 0px;
-      width: calc(100% - 30px);
-      left: 15px;
+      width: 100%;
+      left: 0px;
       padding: 15px 0 15px;
     }
 
@@ -667,7 +667,11 @@ td {
 
     .projects li .project {
       margin: 15px 7.5px 0 7.5px;
-    };
+    }
+
+    header .inner{
+      margin: 0 15px;
+    }
   }
 
   @media only screen and (max-width: 600px) {
