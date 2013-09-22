@@ -9,7 +9,6 @@ categories: project
 
 <h2>TOWRITE</h2>
 
-
 <p>
 	never not blah blah
 </p>

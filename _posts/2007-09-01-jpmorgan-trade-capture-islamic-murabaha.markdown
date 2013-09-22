@@ -8,7 +8,7 @@ categories: project
 ---
 
 <p>
-Individual project to manage trade captures for an emerging market team, built in MS Acess. The blue screen is the old legacy system, the white and blue dashboard are my redesigned version.
+  Individual project to manage trade captures for an emerging market team, built in MS Access. The blue screen is the old legacy system, the white and blue dashboard are my redesigned version.
 </p>
 
 <p class="meta">Client: <strong>JPMorganChase</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>

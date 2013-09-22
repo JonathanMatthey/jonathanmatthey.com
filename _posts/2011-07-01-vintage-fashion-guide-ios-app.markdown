@@ -16,4 +16,6 @@ opensource: true
 
 <div class="showcase">
 	<img src="/img/vintage-fashion-guide-ios-app/vintage-fashion-mag-london.jpg" alt="vintage-fashion-mag-london">
+  <iframe src="//player.vimeo.com/video/28765397" width="500" height="375" frameborder="0"> </iframe> 
 </div>
+

@@ -8,7 +8,7 @@ categories: project
 ---
 
 <p>
-	Built a web dashboard to monitor the progress of a middle office process. This was an individual project where I built both backend and front end. SSIS, DTS packages running in the background with C# Asp.net front end to display results.
+	Built a web dashboard to monitor the progress of a middle office process. This was an individual project where I built both backend and front end. SSIS, DTS packages running in the background with C# Asp.net front end to display results.  This was way back when ajax was a bit of a new concept, so this was kind of innovative.
 </p>
 
 <p class="meta">Client: <strong>JPMorganChase</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>
