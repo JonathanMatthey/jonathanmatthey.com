@@ -254,6 +254,10 @@ input:invalid, textarea:invalid {
   background-color: #f0dddd;
 }
 
+p a{
+  text-decoration: underline;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -514,6 +518,7 @@ td {
     width: 940px;
     text-align: center;
     margin: 0 auto;
+    max-width:100%;
   }
 
   .post-narrow h2{
@@ -538,8 +543,14 @@ td {
     margin-bottom:100px;
   }
 
+  .post .showcase iframe,
   .post .showcase img{
     margin-bottom: 100px;
+    max-width: 100%;
+  }
+
+  .post .showcase h2{
+    margin-bottom:40px;
   }
 
   .post .meta a,
@@ -681,6 +692,44 @@ td {
 
     header .initials {
       display: inline-block;
+    }
+
+    .post p{
+      font-size:14px;
+      line-height: 20px;
+      padding: 0 20px;
+    }
+
+    #container{
+      margin-bottom:0px;
+    }
+
+    .next-project{
+      left:15px;
+    }
+
+    .prev-project{
+      right:15px;
+    }
+
+    .post .meta{
+      margin-bottom:55px;
+    }
+
+    .post-wide-hero{
+      background-size: 320px auto ;
+      height:200px;
+    }
+
+    .post-narrow h2{
+      margin-top:55px;
+    }
+
+    .post-wide h2{
+      margin-top:55px;
+    }
+
+    h2{
     }
   }
 

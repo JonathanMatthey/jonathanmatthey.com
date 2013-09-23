@@ -8,6 +8,7 @@ categories: project
 ---
 
 <p>
+  
 </p>
 
 <p class="meta">Client: <strong>PhilterIt</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.philterit.com">www.philterit.com</a></p>

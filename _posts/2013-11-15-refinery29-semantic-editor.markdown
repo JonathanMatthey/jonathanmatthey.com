@@ -7,4 +7,6 @@ date:   2013-11-15 09:35:01
 categories: inprogress
 ---
 
-<h2>TOWRITE</h2>
+<p>
+  Building admin pages for a new CMS semantic editor.
+</p>
