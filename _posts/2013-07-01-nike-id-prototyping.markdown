@@ -19,9 +19,9 @@ categories: project
 <p class="meta">Client: <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.nike.com/nikeid">View site</a></p>
 
 <div class="showcase">
+  <iframe src="//player.vimeo.com/video/75174649" width="1000" height="560" frameborder="0"> </iframe>
   <img src="/img/nikeid-prototyping/1.jpg" alt="1">
   <img src="/img/nikeid-prototyping/2.jpg" alt="2">
   <img src="/img/nikeid-prototyping/4.jpg" alt="4">
   <img src="/img/nikeid-prototyping/3.jpg" alt="3">
-
 </div>

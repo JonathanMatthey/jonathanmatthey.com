@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#222"
+hero-bg-color: "#171516"
 uid: hipstamatic-oggl
 title:  "Hipstamatic Oggl Campaign"
 worktype: "Development"

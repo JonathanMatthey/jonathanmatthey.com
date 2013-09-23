@@ -1,17 +1,25 @@
 $(document).ready(function(){
 
-  // TODO - make this ajax so the header nav doesnt flash
-  $(".next-project, .prev-project").click(function(evt){
-    evt.preventDefault();
-    fadePageOut($(this).attr('href'));
-  });
+  bindProjectNavArrows();
   fadePageIn();
 
 });
 
+function bindProjectNavArrows(){
+  $(".next-project, .prev-project").click(function(evt){
+    evt.preventDefault();
+    fadePageOut($(this).attr('href'));
+  });
+}
+
 function fadePageOut(targetHref){
-  $("body").fadeOut(100, function(){
-    window.location.href = targetHref;
+  $("#main").fadeOut(200, function(){
+    $( "#main" ).load( targetHref + " #container #main", function(response, status, xhr){
+      bindProjectNavArrows();
+      document.title = $(response).filter("title").text();
+      window.history.pushState("", "", targetHref);
+    });
+    $("#main").fadeIn(200);
   });
 }
 
