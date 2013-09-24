@@ -17,6 +17,6 @@ progress: 80
 	Croco is an npm package, requiring node.js.
 </p>
 
-<p class="meta"><a href="http://www.crocojs.com">www.crocojs.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://github.com/manymengofishing/croco">http://github.com/manymengofishing/croco</a> </p>
+<p class="meta"><a href="http://www.crocojs.com">www.crocojs.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://github.com/manymengofishing/croco">view on GitHub</a></p>
 
 

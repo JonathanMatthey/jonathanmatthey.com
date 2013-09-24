@@ -14,6 +14,4 @@ blackbg: true
   I built a little bookmarklet that works in your browser to overlay a custom grid.  Built for a designer at R/GA who loved using the guideguide plugin in Photoshop and wanted something similar in a browser.
 </p>
 
-<p>Available at <a href="http://www.gridguide.net/">gridguide.net</a></p>
-
-<p class="meta">Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.gridguide.net/">gridguide.net</a></p>
+<p class="meta"><a href="http://www.gridguide.net/">gridguide.net</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://github.com/manymengofishing/gridguide">view on GitHub</a></p>

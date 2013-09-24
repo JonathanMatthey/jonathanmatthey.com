@@ -22,3 +22,11 @@ categories: project
 <p>
   On the main desktop site, I built a number of innovative hero displays, animated product rotations, interactive features, as well as building tools for the Nike content creators to understand the concept of breakpoints.
 </p>
+
+<p class="meta">Client <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="https://www.nike.com">view site</a> </p>
+
+<h2>
+  ---
+  Gathering assets / video 
+  ---
+</h2>

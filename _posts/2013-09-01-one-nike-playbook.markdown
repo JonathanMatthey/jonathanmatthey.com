@@ -26,7 +26,10 @@ categories: project
 
 <p class="meta">Client: <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.onedigitalplaybook.com">www.onedigitalplaybook.com</a> </p>
 
-<div class="showcase">
+<div class="showcase__password__screen">
+  <input type="password" id="showcase__password" value="" placeholder="Enter password to see assets"/>
+</div>
+<div class="showcase passworded">
   <iframe src="//player.vimeo.com/video/71517474" width="1000" height="560" frameborder="0"> </iframe>
   <img src="/img/nike-com-internal-playbook/1.jpg" alt="1">
   <img src="/img/nike-com-internal-playbook/2.jpg" alt="2">
