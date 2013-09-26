@@ -10,6 +10,8 @@ opensource: true
 progress: 80
 ---
 
+<h3>70 % complete</h3>
+
 <p>
 	Croco is a coding convention generator for the web. It generates company or team wide coding conventions that can be hosted on git hub pages. It supports many languages, allows you to choose from industry predefined conventions and then easily extend them by updating markdown files.
 </p>
