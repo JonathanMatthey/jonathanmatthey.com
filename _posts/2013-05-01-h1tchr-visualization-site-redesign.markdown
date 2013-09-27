@@ -29,13 +29,11 @@ categories: project
   <h2>
     Before
   </h2>
-  <div class="showcase">
-    <img src="/img/h1tchr-spotify-app/2.png" alt="h1tchr-spotify-app-2">
-  </div>
+  <img src="/img/h1tchr-spotify-app/2.png" alt="h1tchr-spotify-app-2">
+  <img src="/img/h1tchr-spotify-app/3.jpg" alt="h1tchr-spotify-app-3">
 
   <h2>
     After
   </h2>
-  <img src="/img/h1tchr-spotify-app/3.jpg" alt="h1tchr-spotify-app-3">
   <img src="/img/h1tchr-spotify-app/4.jpg" alt="h1tchr-spotify-app-4">
 </div>
