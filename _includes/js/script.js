@@ -2,21 +2,31 @@
 var showcasePwd = "sesame";
 
 $(document).ready(function(){
-
   bindProjectNavArrows();
   bindPasswordDetect();
   fadePageIn();
 
+  // window.onpopstate = function(event) {
+  //     if(event && event.state) {
+  //         // event.state.foo
+  //         console.log(event);
+  //         $( "#main" ).html(event.state.html);
+  //     }
+  // }
+
 });
 
 function bindPasswordDetect(){
-  $( "#showcase__password" ).keyup(function() {
-    console.log($( "#showcase__password" ).val())
-    if($( "#showcase__password" ).val() == showcasePwd){
-      $( "#showcase__password" ).hide();
-      $( ".showcase").show();
-    }
-  });
+  // don't pwd 
+  $( "#showcase__password" ).hide();
+  $( ".showcase").show();
+
+  // $( "#showcase__password" ).keyup(function() {
+  //   if($( "#showcase__password" ).val() == showcasePwd){
+  //     $( "#showcase__password" ).hide();
+  //     $( ".showcase").show();
+  //   }
+  // });
 }
 
 function bindProjectNavArrows(){
@@ -30,8 +40,11 @@ function fadePageOut(targetHref){
   $("#main").fadeOut(200, function(){
     $( "#main" ).load( targetHref + " #container #main", function(response, status, xhr){
       bindProjectNavArrows();
+      var stateObj = {
+        html: $("#main").html()
+      };
       document.title = $(response).filter("title").text();
-      window.history.pushState("", "", targetHref);
+      window.history.pushState(stateObj, document.title, targetHref);
       $("#main").fadeIn(200);
       bindPasswordDetect();
     });
