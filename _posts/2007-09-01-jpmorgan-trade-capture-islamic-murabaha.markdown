@@ -16,5 +16,6 @@ categories: project
 <div class="showcase">
 	<img src="/img/jpmorgan-trade-capture/islamic1.jpg" alt="jpmorgan-trade-capture-1">
 	<img src="/img/jpmorgan-trade-capture/islamic2.jpg" alt="jpmorgan-trade-capture-2">
+  <h2>This was the old system</h2>
 	<img src="/img/jpmorgan-trade-capture/islamic3.jpg" alt="jpmorgan-trade-capture-2">
 </div>

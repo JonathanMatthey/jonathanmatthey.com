@@ -9,15 +9,19 @@ categories: project
 ---
 
 <p>
-  I was brought in to quickly deliver a production ready beatsbydre carousel in 2 days given just a few assets, it had to be responsive too.  I designed the desktop and mobile layouts and prototyped it across 1600 x 1200 px, 1440px x 1280px, 1024 x 800px, ipad: 768x1024px portrait/landscape and iphone 320px x 480px portrait / landscape.
+  I was brought in to quickly deliver a production ready beatsbydre carousel in 2 days given just a few assets.  It had to be responsive and have 'cool or soft' transitions.  I experimented with timings and delays between background and foreground fades to achieve a smooth ambient reveal feeling.
 </p>
 <p>
-  After positive feedback from the client, I made it cross browser and tested it on multiple devices.
+  I prototyped it across 1600 x 1200 px, 1440px x 1280px, 1024 x 800px, ipad: 768x1024px portrait/landscape and iphone 320px x 480px portrait / landscape.
 </p>
 
 <p class="meta">Client: <strong>beatsbydre</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.beatsbydre.com/">View site</a></p>
 
-<div class="showcase">
+<div class="showcase__password__screen">
+  <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
+</div>
+<div class="showcase passworded">
+  <iframe src="//player.vimeo.com/video/71510303" width="1000" height="560" frameborder="0"> </iframe>
   <img src="/img/beatsbydre/beats1.jpg" alt="beats1">
   <img src="/img/beatsbydre/beats2.jpg" alt="beats2">
   <img src="/img/beatsbydre/beats4.jpg" alt="beats4">

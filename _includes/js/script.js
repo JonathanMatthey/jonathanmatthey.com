@@ -18,15 +18,15 @@ $(document).ready(function(){
 
 function bindPasswordDetect(){
   // don't pwd 
-  $( "#showcase__password" ).hide();
-  $( ".showcase").show();
+  // $( "#showcase__password" ).hide();
+  // $( ".showcase").show();
 
-  // $( "#showcase__password" ).keyup(function() {
-  //   if($( "#showcase__password" ).val() == showcasePwd){
-  //     $( "#showcase__password" ).hide();
-  //     $( ".showcase").show();
-  //   }
-  // });
+  $( "#showcase__password" ).keyup(function() {
+    if($( "#showcase__password" ).val() == showcasePwd){
+      $( "#showcase__password" ).hide();
+      $( ".showcase").show();
+    }
+  });
 }
 
 function bindProjectNavArrows(){

@@ -22,7 +22,7 @@ categories: project
 <p class="meta"><a href="http://www.nevernotmovie.com">www.nevernotmovie.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | Client: <strong>Nike</strong></p>
 
 <div class="showcase__password__screen">
-  <input type="password" id="showcase__password" value="" placeholder="Enter password to see assets"/>
+  <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
 </div>
 <div class="showcase passworded">
   <iframe src="//player.vimeo.com/video/75162921" width="1000" height="560" frameborder="0"> </iframe>

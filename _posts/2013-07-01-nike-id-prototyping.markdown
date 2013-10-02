@@ -19,7 +19,7 @@ categories: project
 <p class="meta">Client: <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.nike.com/nikeid">View site</a></p>
 
 <div class="showcase__password__screen">
-  <input type="password" id="showcase__password" value="" placeholder="Enter password to see assets"/>
+  <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
 </div>
 <div class="showcase passworded">
   <iframe src="//player.vimeo.com/video/75174649" width="1000" height="560" frameborder="0"> </iframe>
