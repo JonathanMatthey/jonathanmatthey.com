@@ -14,10 +14,19 @@ $(document).ready(function(){
   //     }
   // }
 
+  BackgroundCheck.init({
+    targets: '.target',
+    images: '.post-wide-hero'
+  });
+
+  setTimeout(function(){
+    BackgroundCheck.refresh();
+  },300);
+
 });
 
 function bindPasswordDetect(){
-  // don't pwd 
+  // don't pwd
   // $( "#showcase__password" ).hide();
   // $( ".showcase").show();
 

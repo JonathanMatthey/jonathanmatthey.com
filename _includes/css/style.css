@@ -527,6 +527,17 @@ td {
     right: 30px;
   }
 
+  .next-project.background--dark{
+    background-image: url(img/chevron-left-white.png);
+  }
+
+  .prev-project.background--dark{
+    background-image: url(img/chevron-right-white.png);
+  }
+
+
+
+
   /* ==|== STATIC page styles ======================================== */
 
   .static-page{
