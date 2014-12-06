@@ -1,7 +1,7 @@
 name: Jonathan Matthey
 description: Portfolio
 author: Jonathan Matthey
-analytics: UAXXXXXXXX1
+analytics: UA-30141486-2
 exclude: [ _design, README ]
 # baseurl: "http://www.jonathanmatthey.com/redesign/_site/"
 baseurl: "/"

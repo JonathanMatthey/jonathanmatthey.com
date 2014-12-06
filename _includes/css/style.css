@@ -611,6 +611,10 @@ td {
   }
 
   .post .showcase.passworded{
+    display: block;
+  }
+
+  .showcase__password__screen{
     display: none;
   }
 
