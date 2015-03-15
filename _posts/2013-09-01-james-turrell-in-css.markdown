@@ -6,7 +6,6 @@ worktype: "Design & Development"
 date:   2013-10-31 16:35:01
 categories: inprogress opensource
 opensource: true
-progress: 40
 ---
 
 <p>

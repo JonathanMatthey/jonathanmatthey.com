@@ -7,6 +7,7 @@ worktype: Engineering
 date:   2013-10-01 09:35:01
 categories: inprogress
 progress: 10
+published: false
 ---
 
 <p>

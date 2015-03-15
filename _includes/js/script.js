@@ -6,14 +6,6 @@ $(document).ready(function(){
   bindPasswordDetect();
   fadePageIn();
 
-  // window.onpopstate = function(event) {
-  //     if(event && event.state) {
-  //         // event.state.foo
-  //         console.log(event);
-  //         $( "#main" ).html(event.state.html);
-  //     }
-  // }
-
   BackgroundCheck.init({
     targets: '.target',
     images: '.post-wide-hero'
@@ -26,10 +18,6 @@ $(document).ready(function(){
 });
 
 function bindPasswordDetect(){
-  // don't pwd
-  // $( "#showcase__password" ).hide();
-  // $( ".showcase").show();
-
   $( "#showcase__password" ).keyup(function() {
     if($( "#showcase__password" ).val() == showcasePwd){
       $( "#showcase__password" ).hide();

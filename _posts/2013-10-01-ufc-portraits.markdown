@@ -2,14 +2,14 @@
 layout: post-wide
 hero-bg-color: "#f4f4f4"
 uid: portraits
-title:  "Portraits"
+title:  "Portrait(s)"
 worktype: "Art"
 date:   2013-10-01 09:35:01
 categories: inprogress
 ---
 
 <p>
-  Hoping to finish at least one portrait by end of 2013, might be some fighter.
+  One's hardly a series.
 </p>
 
 <p class="meta">
