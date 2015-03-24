@@ -9,7 +9,7 @@ opensource: true
 ---
 
 <p>
-qwe
+  open sourcing a realistic progress alerts plugin... coming soon.
 </p>
 
 <p>
