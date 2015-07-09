@@ -1,10 +1,11 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#EFF3F4"
 uid: passwordcritter-js
 title:  "PasswordCritter.js - Login Form Pet Helper"
 worktype: "Design & Development"
-date:   2013-11-17 16:35:01
-categories:  opensource
+date:   2014-11-17 16:35:01
+categories: project opensource
 opensource: true
 ---
 
