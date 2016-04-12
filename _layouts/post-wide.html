@@ -3,7 +3,13 @@ layout: default
 ---
 
 <div id="post-container">
-  <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url(/img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
+  {{#if page.video}}
+    <video width="100%"  poster="" autoplay>
+      <source src="{{page.video}}" type="video/mp4">
+    </video>
+  {{else}}
+    <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url(/img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
+  {{/if}}
   <div class="post post-wide">
     <h2>{{ page.title }}</h2>
     <!-- <div class="separator"></div> -->
