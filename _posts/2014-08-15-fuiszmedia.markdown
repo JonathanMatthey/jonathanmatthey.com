@@ -24,7 +24,7 @@ categories: project
 </div>
 
 <div class="showcase passworded">
-  <h3>new angular.js studio</h3>
+  <h2>new angular.js studio</h2>
   <img src="/img/fuiszmedia-video-studio/angularjs-studio0.jpg" alt="">
   <img src="/img/fuiszmedia-video-studio/angularjs-studio1.jpg" alt="">
   <img src="/img/fuiszmedia-video-studio/angularjs-studio2.jpg" alt="">
@@ -34,7 +34,12 @@ categories: project
   <img src="/img/fuiszmedia-video-studio/angularjs-studio6.jpg" alt="">
   <img src="/img/fuiszmedia-video-studio/angularjs-studio7.jpg" alt="">
 
-  <h3>old studio</h3>
+
+  <h2>REACT Studio Lite</h2>
+  <img src="/img/fuiszmedia-video-studio/fuisz-react-1.jpg" alt="">
+  <img src="/img/fuiszmedia-video-studio/fuisz-react-2.jpg" alt="">
+
+  <h2>old studio</h2>
   <img src="/img/fuiszmedia-video-studio/fuisz2.png" alt="fuiszmedia-video-studio-1">
   <img src="/img/fuiszmedia-video-studio/fuisz3.png" alt="fuiszmedia-video-studio-2">
 </div>

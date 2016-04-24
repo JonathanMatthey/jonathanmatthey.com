@@ -29,6 +29,3 @@ categories: project
   <img src="/img/internetorg/story4.jpg" alt="story4">
 
 </div>
-
-
-

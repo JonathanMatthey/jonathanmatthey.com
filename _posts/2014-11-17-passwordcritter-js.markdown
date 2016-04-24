@@ -10,7 +10,7 @@ opensource: true
 ---
 
 <p>
-  open sourcing that cute little form helper on <a target="_blank" href="studio.fuiszmedia.com">studio.fuiszmedia.com</a> coming soon !
+  open sourcing that cute little form helper on <a target="_blank" href="http://studio.fuiszmedia.com">studio.fuiszmedia.com</a> coming soon !
 </p>
 
 <p>

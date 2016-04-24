@@ -535,8 +535,10 @@ td {
     background-image: url(img/chevron-right-white.png);
   }
 
-
-
+  .underlined-link{
+    text-decoration: underline;
+    display: inline-block;
+  }
 
   /* ==|== STATIC page styles ======================================== */
 
@@ -612,11 +614,11 @@ td {
   }
 
   .post .showcase.passworded{
-    display: none;
+    // display: none;
   }
 
   .showcase__password__screen{
-    /*display: none;*/
+    display: none;
   }
 
   .post .showcase iframe,
