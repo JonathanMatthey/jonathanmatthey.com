@@ -9,12 +9,13 @@ categories: project
 ---
 
 <p>
-	Nike Snowboarding wanted to build anticipation of two upcoming exclusive snowboarding videos by releasing 14 online trailers.
+  Redesigned the ustwo public website.  Built on Wordpress, working alongside 2 designers.  I built a responsive site, with large imagery, fixed navigation, blog, job postings.  It was featured and well received on siteinspire.com.
 </p>
 
 <p class="meta"><a href="http://www.ustwo.com">www.ustwo.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | Client: <strong>usTwo</strong></p>
 
 <div class="showcase ">
+  <img src="/img/ustwo-website-redesign/ustwo-on-inspire.jpg" alt="ustwo-on-inspire">
   <img src="/img/ustwo-website-redesign/1.jpg" alt="ustwo-website-redesign-1">
   <img src="/img/ustwo-website-redesign/2.jpg" alt="ustwo-website-redesign-2">
   <img src="/img/ustwo-website-redesign/3.jpg" alt="ustwo-website-redesign-3">
