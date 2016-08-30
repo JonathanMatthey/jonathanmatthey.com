@@ -3,7 +3,7 @@
 
 #### What It Looks Like
 <p align="center">
-  <img src="img/jekyll-grid-portfolio.png">
+  <img src="img/jekyll-grid-portfolio.PNG">
 </p>
 
 #### Installation
