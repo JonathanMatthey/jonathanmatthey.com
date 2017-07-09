@@ -1,8 +1,8 @@
 ---
 layout: post-wide
-hero-bg-color: "#1E2A3D"
-uid: interlude
-title:  "Interlude"
+hero-bg-color: "#050424"
+uid: eko
+title:  "Eko"
 worktype: "Development"
 date:   2016-04-01 01:01:01
 categories: project
@@ -12,7 +12,7 @@ categories: project
 
 </p>
 
-<p class="meta"><a href="http://www.internet.org">www.interlude.fm</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong>
+<p class="meta"><a href="http://www.helloeko.com">www.helloeko.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong>
 
 <div class="showcase">
   <p>
@@ -24,5 +24,5 @@ categories: project
     Developed an Interactive VR Video Player, you watch a 360 video and at certain points shake your head yes or no to respond to the actor, the narrative changes according to your choices.
   </p>
 
-  <img src="/img/interlude/unity-poc.png" alt="interlude-unity-poc">
+  <img src="/img/eko/unity-poc.png" alt="interlude-unity-poc">
 </div>

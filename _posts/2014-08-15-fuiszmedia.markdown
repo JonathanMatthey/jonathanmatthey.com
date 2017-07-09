@@ -13,9 +13,6 @@ categories: project
 </p>
 <p> The studio comprises of a tagging tool where you can identify items to be tracked.  A theme builder and individual content block editor that are displayed when users interact with the items in the video.
 </p>
-<p>
-  Video tour coming soon.
-</p>
 
 <p class="meta"><a href="http://studio.fuiszmedia.com">studio.fuiszmedia.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | Client: <strong>FuiszMedia</strong></p>
 
