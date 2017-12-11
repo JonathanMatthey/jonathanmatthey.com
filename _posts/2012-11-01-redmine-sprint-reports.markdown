@@ -23,7 +23,7 @@ opensource: true
 <p class="meta">Client <strong>uk2group</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="https://github.com/manymengofishing/redmine-d3js-sprint-reports">GitHub</a> </p>
 
 <div class="showcase">
-  <iframe width="1120" height="630" src="//www.youtube.com/embed/s46XRnHkOS0" frameborder="0" > </iframe>
+  <iframe width="1120" height="630" src="//www.youtube.com/embed/e9L8YrpNB3w" frameborder="0" > </iframe>
   <img src="/img/redmine-d3js-sprint-reports/1.jpg" alt="1">
 </div>
 
