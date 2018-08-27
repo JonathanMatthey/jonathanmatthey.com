@@ -20,6 +20,9 @@ categories: project
   <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
 </div>
 
+<h2>Fuisz Media Interactive Product Showcase</h2>
+<style>.embed-container { margin-top:30px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/BJC26tdEOUM' frameborder='0' allowfullscreen></iframe></div>
+
 <div class="showcase passworded">
   <h2>new angular.js studio</h2>
   <img src="/img/fuiszmedia-video-studio/angularjs-studio0.jpg" alt="">
