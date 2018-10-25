@@ -8,21 +8,45 @@ date:   2016-04-01 01:01:01
 categories: project
 ---
 
-<p>
-
-</p>
-
-<p class="meta"><a href="http://www.helloeko.com">www.helloeko.com</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong>
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="title">{{ page.title }}</h2>
+      <h3>Senior Front End Dev</h3>
+      <h3>2017</h3>
+      <a href="http://www.helloeko.com">www.helloeko.com</a>
+    </div>
+    <div class="col">
+      <h3>Company</h3>
+      <p>
+        Eko delivers cinematic interactive video, empowering participants to make choices that shape stories in real time.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+      <p>
+    Built a interactive trailer for the Straight out of Compton DVD release.  You can choose one of the 3 main characters, Dre, Easy E, Ice Cube and make choices on their careers and songs.
+      </p>
+      <p>
+        Developed an Interactive VR Video Player, you watch a 360 video and at certain points shake your head yes or no to respond to the actor, the narrative changes according to your choices.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+        1 Motion Designer<br/>
+        1 Project Manager
+      </p>
+      <h3>Stack</h3>
+      <p>
+        Vanilla JS, scss, html, css.
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="showcase">
-  <p>
-    Built a interactive trailer for the Straight out of Compton DVD release.  You can choose one of the 3 main characters, Dre, Easy E, Ice Cube and make choices on their careers and songs.
-  </p>
-<iframe width="854" height="480" frameborder="0" allowfullscreen src="http://stage.interlude.fm/compton/embed.html?publisherID=fQLtND"></iframe>
-
-  <p>
-    Developed an Interactive VR Video Player, you watch a 360 video and at certain points shake your head yes or no to respond to the actor, the narrative changes according to your choices.
-  </p>
+  <iframe width="854" height="480" frameborder="0" allowfullscreen src="http://stage.interlude.fm/compton/embed.html?publisherID=fQLtND"></iframe>
 
   <img src="/img/eko/unity-poc.png" alt="interlude-unity-poc">
 </div>

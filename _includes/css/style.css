@@ -2,6 +2,14 @@
  * ==|== normalize ==========================================================
  */
 
+@font-face {
+  font-family: 'AtlasGrotesk-Thin';
+  src: url('../fonts/AtlasGrotesk-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/AtlasGrotesk-Thin.otf')  format('opentype'),
+       url('../fonts/AtlasGrotesk-Thin.woff') format('woff'), url('../fonts/AtlasGrotesk-Thin.ttf')  format('truetype'), url('../fonts/AtlasGrotesk-Thin.svg#AtlasGrotesk-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
@@ -288,7 +296,7 @@ td {
    ========================================================================== */
 
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'AtlasGrotesk-Thin', sans-serif;
     min-width: 100%;
     display: none;
   }
@@ -299,7 +307,7 @@ td {
   }
 
   a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'AtlasGrotesk-Thin', sans-serif;
     text-decoration: none;
     color: #000;
     font-size: 14px;
@@ -312,8 +320,7 @@ td {
   header {
     padding-top:30px;
     padding-bottom:30px;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'AtlasGrotesk-Thin', sans-serif;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -576,10 +583,11 @@ td {
   }
 
   .post p{
-    font-size: 16px;
-    line-height: 24px;
-    max-width: 620px;
-    color: #494949;
+
+    line-height: 1.66667;
+    font-size: 15px;
+
+    color: #666;
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -620,6 +628,10 @@ td {
     margin-right:auto;
   }
 
+  .post .showcase{
+    margin-top: 100px;
+  }
+
   .post .showcase.passworded{
     // display: none;
   }
@@ -654,9 +666,25 @@ td {
     background: #444;
   }
 
+  .project-description{
+    padding-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .project-assets{
+    margin-top: 100px;
+  }
+
   .post-wide{
     position: relative;
     text-align: center;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    max-width: 1660px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: transparent;
+    border-style: solid;
   }
 
   .post-wide-hero{
@@ -669,13 +697,36 @@ td {
     position: relative;
   }
 
-  .post-wide h2{
-    margin-top:100px;
+  .post-wide .title{
+    margin-top: 10px
   }
 
   .post-wide .showcase img{
     max-width: 100%;
   }
+
+  .post-wide .project-description .col {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  .post-wide .project-description .col {
+    width: 20%;
+  }
+  .post-wide .project-description .col:nth-child(3) {
+    width: 40%;
+  }
+
+
+  .post-wide .row{
+  }
+
+  .post-wide h3{
+  }
+
 
 
   /* ==|== non-semantic helper classes ======================================== */
@@ -737,7 +788,6 @@ td {
   }
 
 
-
   /* ==|== media queries ====================================================== */
 
 
@@ -786,6 +836,7 @@ td {
       padding: 0 10px;
       margin-left: 30px;
       margin-right: 30px;
+
     }
 
     .post h2{
@@ -825,6 +876,8 @@ td {
     .post-wide h2{
       margin-top:55px;
     }
+
+
 
     h2{
     }

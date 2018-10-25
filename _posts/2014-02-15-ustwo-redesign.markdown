@@ -1,7 +1,7 @@
 ---
 layout: post-wide
 hero-bg-color: "#333333"
-uid: ustwo-website-redesign
+uid: ustwo
 title:  "Ustwo - Website Redesign"
 worktype: "Design & Development"
 date:   2014-02-15 09:35:01

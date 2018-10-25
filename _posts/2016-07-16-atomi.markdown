@@ -8,28 +8,46 @@ date:   2016-07-16 01:01:01
 categories: project
 ---
 
-<p>
-  In 2016, I built atomi's new landing page site and blog.  It took a couple of months from early designs to the final approved live site.
-</p>
-
-<p>
-  Working full remotely as Atomi is based in Sydney Australia, I collaborated with a single designer and back end developer.  I was the Front End lead in building the Reactjs client facing site, using scss and grids, the site is fully responsive on mobile and tablets.
-</p>
-
-<p>
-  The blog is built on Ghost which is also nodejs based and custom styled.  The site hits back end api endpoints to display lists of subjects, sign new users up and login.  Blog articles are also stored on their databases.
-</p>
-
-<p class="meta"><a href="http://www.getatomi.org">www.getatomi.org</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>
-
-<p>
-  The next project was to completely redesign HSCHUB, atomi's main app which was built on CakePhp with no real client side framework.  The codebase was getting old and messy.
-</p>
-<p>
-  I started from stratched, defined the architecture in React / Flux and spent the next 9 months building v1.0
-</p>
-
-<p class="meta"><a href="https://app.getatomi.com/dashboard">https://app.getatomi.com/dashboard</a> | Date: <strong>Mar 2017</strong></p>
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="title">{{ page.title }}</h2>
+      <h3>Senior Front End Dev</h3>
+      <h3>2016 - 9 months</h3>
+      <a class="project-link" href="http://www.getatomi.com">www.getatomi.com</a>
+    </div>
+    <div class="col">
+      <h3>Company</h3>
+      <p>
+        Atomi deliver millions of lessons each year to students around the world, helping to extend learning beyond the classroom and empowering students and teachers to work better together.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+      <p>
+        I redesigned atomi's new landing page site and blog in React.  Their previous solution was a CakePHP MVC framework and they wanted to move to a client side / API architecture with Reactjs, Redux and Laraval PHP API backend.
+      </p>
+      <p>
+        Working full remotely as Atomi are based in Sydney Australia, I collaborated with a designer and back end developer.
+      </p>
+      <p>
+        The blog is built on Ghost which is also nodejs based and custom styled.  The site hits back end api endpoints to display lists of subjects, sign new users up and login.  Blog articles are also stored on their databases.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+        1 Backend PHP<br/>
+        1 Designer<br/>
+        1 CEO
+      </p>
+      <h3>Stack</h3>
+      <p>
+        Reactjs, Redux, CakePHP, SCSS, bootstrap.
+      </p>
+    </div>
+  </div>
+</div>
 
 
 <div class="showcase__password__screen">
@@ -37,7 +55,6 @@ categories: project
 </div>
 
 <div class="showcase passworded">
-<h3>Screen Recordings</h3>
   <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/AL2oF3oGcAY?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
   <br/>
   <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/GO0Spv7KHuI?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
