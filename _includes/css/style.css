@@ -10,6 +10,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'AtlasGrotesk-Medium';
+  src: url('../fonts/AtlasGrotesk-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/AtlasGrotesk-Medium.otf')  format('opentype'),
+       url('../fonts/AtlasGrotesk-Medium.woff') format('woff'), url('../fonts/AtlasGrotesk-Medium.ttf')  format('truetype'), url('../fonts/AtlasGrotesk-Medium.svg#AtlasGrotesk-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
@@ -301,6 +308,12 @@ td {
     display: none;
   }
 
+  .site-title a{
+    font-family: 'AtlasGrotesk-Medium', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -492,11 +505,14 @@ td {
     height:50px;
     width:100%;
   }
+  .projects .cover .project-details span:first-child{
+    font-family: 'AtlasGrotesk-Medium', sans-serif;
+  }
 
   .projects .cover .project-details span{
     clear:both;
     display: block;
-    line-height: 20px;
+    line-height: 22px;
     font-size:15px;
     font-weight:bold;
   }
@@ -697,8 +713,11 @@ td {
     position: relative;
   }
 
-  .post-wide .title{
-    margin-top: 10px
+  .post-wide .project-title{
+    margin-top: 10px;
+    font-family: 'AtlasGrotesk-Medium', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
   }
 
   .post-wide .showcase img{

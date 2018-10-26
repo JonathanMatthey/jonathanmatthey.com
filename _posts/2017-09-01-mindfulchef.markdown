@@ -11,7 +11,7 @@ categories: project
 <div class="project-description">
   <div class="row clearfix">
     <div class="col">
-      <h2 class="title">{{ page.title }}</h2>
+      <h2 class="project-title">{{ page.title }}</h2>
       <h3>Senior Front End Dev</h3>
       <h3>2017 - 12 months</h3>
     </div>
