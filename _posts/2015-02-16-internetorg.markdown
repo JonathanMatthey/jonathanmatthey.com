@@ -8,13 +8,48 @@ date:   2015-02-21 01:01:01
 categories: project
 ---
 
-<p>
-</p>
 
-<p class="meta"><a href="http://www.internet.org">www.internet.org</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | Client: <strong>facebook (B-Reel)</strong></p>
-
-<div class="showcase__password__screen">
-  <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2015</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+        Facebook is a social network, that came after myspace and before [insert next big thing].
+      </p>
+      <p>
+        Internet.org was a campaign by facebook to ...
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus, temporibus! Quasi expedita quidem sunt, sed aliquid, illo voluptatum provident iure ut deleniti reprehenderit praesentium sequi. Debitis id, alias a.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus, temporibus! Quasi expedita quidem sunt, sed aliquid, illo voluptatum provident iure ut deleniti reprehenderit praesentium sequi. Debitis id, alias a.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+        1 Project Manager<br/>
+        2 Designers<br/>
+        1 Backend PHP Developer<br/>
+        1 iOS Developer
+      </p>
+      <h3>Stack</h3>
+      <p>
+        jQuery, Vanilla JS, laravel PHP, html5, scss.
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="showcase passworded">
@@ -27,5 +62,4 @@ categories: project
   <img src="/img/internetorg/story2.jpg" alt="story2">
   <img src="/img/internetorg/story3.jpg" alt="story3">
   <img src="/img/internetorg/story4.jpg" alt="story4">
-
 </div>

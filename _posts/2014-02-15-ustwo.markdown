@@ -1,0 +1,60 @@
+---
+layout: post-wide
+hero-bg-color: "#6200D0"
+uid: ustwo
+title:  "Ustwo"
+worktype: "Design & Development"
+date:   2014-02-15 09:35:01
+categories: project
+---
+
+
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2014</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+        Ustwo is a digital design studio that delivers interaction and user interface design services.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+      <p>
+        Redesigned the ustwo public website.  Built on Wordpress, working alongside 2 designers.  I built a responsive site, with large imagery, fixed navigation, blog, job postings.  It was featured and well received on siteinspire.com.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+        1 Designer
+      </p>
+      <h3>Stack</h3>
+      <p>
+        Html5, scss, bootstrap, wordpress.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="showcase ">
+  <img src="/img/ustwo/ustwo-on-inspire.jpg" alt="ustwo-on-inspire">
+  <img src="/img/ustwo/1.jpg" alt="ustwo-1">
+  <img src="/img/ustwo/2.jpg" alt="ustwo-2">
+  <img src="/img/ustwo/3.jpg" alt="ustwo-3">
+  <img src="/img/ustwo/4.jpg" alt="ustwo-4">
+  <img src="/img/ustwo/5.jpg" alt="ustwo-5">
+  <img src="/img/ustwo/6.jpg" alt="ustwo-6">
+  <img src="/img/ustwo/7.jpg" alt="ustwo-7">
+  <img src="/img/ustwo/8.jpg" alt="ustwo-8">
+</div>
+
+
+
+
