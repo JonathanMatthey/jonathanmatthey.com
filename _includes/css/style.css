@@ -309,9 +309,9 @@ td {
   }
 
   .site-title a{
-    font-family: 'AtlasGrotesk-Medium', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
   }
 
   ul {
@@ -358,7 +358,7 @@ td {
     left: 0px;
     font-weight: normal;
     font-size: 16px;
-    margin: 10px 0;
+    margin: 9px 0;
   }
 
   header .initials {
@@ -735,8 +735,11 @@ td {
   .post-wide .project-description .col {
     width: 20%;
   }
+  .post-wide .project-description .col:nth-child(2) {
+    width: 25%;
+  }
   .post-wide .project-description .col:nth-child(3) {
-    width: 40%;
+    width: 35%;
   }
 
 

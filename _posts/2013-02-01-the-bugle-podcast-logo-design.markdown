@@ -8,6 +8,34 @@ date:   2013-02-01 09:35:01
 categories: project
 ---
 
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+      </p>
+      <h3>Stack</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
 <p>
 I designed a logo for The Bugle Podcast, the greatest audio podcast for a visual world starring Andy Zaltsman and John Oliver.
 </p>

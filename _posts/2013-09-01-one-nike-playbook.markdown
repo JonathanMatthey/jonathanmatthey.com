@@ -8,21 +8,47 @@ date:   2013-04-01 09:35:01
 categories: project
 ---
 
-<p>
-  Nike were looking for an interactive guide for their internal content creators.  They wanted to communicate both company goals and detailed instructions in a rich interesting fashion.
-</p>
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+      <p>
+        Nike were looking for an interactive guide for their internal content creators.  They wanted to communicate both company goals and detailed instructions in a rich interesting fashion.
+      </p>
+      <p>
+        In a team of 3, 2 developers and a designer, we unfolded this two book concept of a black book and a white.  The black book was split in 3 parts, one long scrolling experience with animations appearing at certain points.
+      </p>
+      <p>
+        The white book outlined how different components fit into bigger pages on both the desktop nike.com and the mobile site.  It includes breakdowns of campaigns and interesting javascript notation with canvas arrows that can all be edited on the backend.
+      </p>
+      <p>
+        An admin screen was built to maintain each section, we built a WISYWIG editors and an asset manager too.
+      </p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+        1 Designer<br/>
+      </p>
+      <h3>Stack</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
 
-<p>
-  In a team of 3, 2 developers and a designer, we unfolded this two book concept of a black book and a white.  The black book was split in 3 parts, one long scrolling experience with animations appearing at certain points.
-</p>
-
-<p>
-  The white book outlined how different components fit into bigger pages on both the desktop nike.com and the mobile site.  It includes breakdowns of campaigns and interesting javascript notation with canvas arrows that can all be edited on the backend.
-</p>
-
-<p>
-  An admin screen was built to maintain each section, we built a WISYWIG editors and an asset manager too.
-</p>
 
 <p class="meta">Client: <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.onedigitalplaybook.com">www.onedigitalplaybook.com</a> </p>
 

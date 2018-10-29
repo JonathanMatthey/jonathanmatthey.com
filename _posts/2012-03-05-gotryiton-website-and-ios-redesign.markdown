@@ -7,6 +7,34 @@ date:   2012-03-05 09:35:01
 categories: project
 ---
 
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+      </p>
+      <h3>Stack</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
 <p>
   Go Try It On! is a fashion tech start up delivers instant community styling advice on your looks.
   Written reviews are a large part of Go Try It On, building on top of that, my first project was to design a Product Recommendation tool where users would be able to selected from a specified list of products and recommend them to other users complimenting their look.

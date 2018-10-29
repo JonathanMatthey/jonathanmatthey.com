@@ -8,6 +8,34 @@ date:   2013-06-15 09:35:01
 categories: project
 ---
 
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+      </p>
+      <h3>Stack</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
 <p>
   I was brought in to quickly deliver a production ready beatsbydre carousel in 2 days given just a few assets.  It had to be responsive and have 'cool or soft' transitions.  I experimented with timings and delays between background and foreground fades to achieve a smooth ambient reveal feeling.
 </p>

@@ -7,6 +7,34 @@ date:   2007-11-01 09:35:01
 categories: project
 ---
 
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+      </p>
+      <h3>Stack</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
 <p>
 	Banks run on Excel. I built and supported front office trading spreadsheets reporting and calculating daily profit and loss, using in-house Alib quant libraries all written in C++.  I'd design and build the final dashboards that traders would use on their desks.
 </p>

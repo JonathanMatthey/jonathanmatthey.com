@@ -7,6 +7,34 @@ date:   2009-09-01 09:35:01
 categories: project
 ---
 
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+      </p>
+      <h3>Stack</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
 <p>
   Established Silent We Shout, a not for profit Graduate Fashion Retail Platform based in London. We supported 19 talented fashion designers to develop their careers within the industry. Secured sponsorship from high street fashion brands Reebok and Warehouse, fashion boutiques and recommendations from the British Fashion Council.
 </p>

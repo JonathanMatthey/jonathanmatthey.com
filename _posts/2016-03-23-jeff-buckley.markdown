@@ -1,13 +1,13 @@
 ---
 layout: post-wide
-hero-bg-color: "#1E2A3D"
+hero-bg-color: "#00232D"
 uid: jeffbuckley
 title:  "Jeff Buckley"
 worktype: "Development"
 date:   2016-03-23 01:01:01
 categories: project
-herotype: "video"
-video: "/img/jeffbuckley/jeff-buckley-trailer.mp4"
+hherotype: "video"
+vvideo: "/img/jeffbuckley/jeff-buckley-trailer.mp4"
 ---
 
 <div class="project-description">

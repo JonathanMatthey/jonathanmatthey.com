@@ -9,17 +9,50 @@ categories: project opensource
 opensource: true
 ---
 
-<p>
-  A showcase of the best typefaces from the Google web fonts directory.
-</p>
+<div class="project-description">
+  <div class="row clearfix">
+    <div class="col">
+      <h2 class="project-title">{{ page.title }}</h2>
+      <h3>Front End Developer</h3>
+      <h3>2013</h3>
+      <a href="http://jonathanmatthey.com/beautiful-google-fonts/">view site</a>
+      <br/><br/>
+      <a href="https://github.com/jonathanmatthey/beautiful-web-type">github</a>
+    </div>
+    <div class="col">
+      <h3>
+        Company
+      </h3>
+      <p>
+      </p>
+    </div>
+    <div class="col">
+      <h3>Contribution</h3>
 
-<p>
-  There are over 600 typefaces in the Google web fonts directory. Many of them are awful. But there are also high-quality typefaces that deserve a closer look. 
-</p>
+      <p>
+        A showcase of the best typefaces from the Google web fonts directory.
+      </p>
 
-<p>Check them out at <a href="http://jonathanmatthey.com/beautiful-google-fonts/">http://jonathanmatthey.com/beautiful-google-fonts/</a></p>
+      <p>
+        There are over 600 typefaces in the Google web fonts directory. Many of them are awful. But there are also high-quality typefaces that deserve a closer look.
+      </p>
+      <p>
+        Try them out <a href="http://jonathanmatthey.com/beautiful-google-fonts/">here</a>.
+      </p>
 
-<p class="meta"><a href="http://jonathanmatthey.com/beautiful-google-fonts/">view site</a> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="https://github.com/manymengofishing/beautiful-web-type">github</a> </p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>
+        Just me
+      </p>
+      <h3>Stack</h3>
+      <p>
+        Html, scss.
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="showcase">
   <img src="/img/beautiful-google-web-type/1.jpg" alt="beautiful-google-web-type-1">
