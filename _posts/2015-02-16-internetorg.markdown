@@ -6,7 +6,7 @@ title:  "Internet.org by facebook"
 worktype: "Development"
 date:   2015-02-21 01:01:01
 categories: project
-role: Front End Dev
+role: Front End Developer
 dates: 2015
 company_description:
 - <b>Facebook</b> is a social network, that came after myspace and before [insert next big thing].

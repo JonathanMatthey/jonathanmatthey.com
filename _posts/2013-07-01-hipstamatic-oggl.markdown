@@ -7,67 +7,28 @@ worktype: "Development"
 date:   2013-07-01 09:35:01
 categories: project
 role: Senior Front End Dev
-dates:
-project_site_url:
-project_site_slug:
+dates: 2013
+project_site_url: http://hipstamatic.com/oggl/
+project_site_slug: hipstamatic.com/oggl
 company_description:
+- <b>Hipstamatic</b> is a world-class photography app and Apple's original App of the Year.
 team:
 - 1 Backend Rails Dev
 - 1 Designer
 - 1 CEO
-stack:
+stack: Html, css, js.
 contribution:
----
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2013</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-      </p>
-      <h3>Stack</h3>
-      <p>
-      </p>
-    </div>
-  </div>
-</div>
-
-<p>
   Built a splash page for the launch of the Hipstamatic Oggl PRO, an Exclusive App for Nokia Lumia 1020, that Brings More Control and Creativity to Photographers.
-</p>
-
-<p class="meta">Client: <strong>Hipstamatic</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.jonathanmatthey.com/hipsta/oggl_pro">View site</a></p>
+  A small website for the Oggl community to view and browse their photos.  It consists of 2 reponsive views, a gallery view and a individual photo view, cross browser and tested at all resolutions and mobile devices with css3 animations.
+---
 
 <div class="showcase">
   <img src="/img/hipstamatic-oggl/web_PRO_final.jpg" alt="web-pro-final">
-</div>
 
-<h2>
-  Hipstamatic Oggl Community Site
-</h2>
+  <h2>
+    Hipstamatic Oggl Community Site
+  </h2>
 
-<p>
-  A small website for the Oggl community to view and browse their photos.  It consists of 2 reponsive views, a gallery view and a individual photo view, cross browser and tested at all resolutions and mobile devices with css3 animations.
-</p>
-
-<p class="meta">Client: <strong>Hipstamatic</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://oggl.me/shaney/">View site</a></p>
-
-<div class="showcase">
   <img src="/img/hipstamatic-oggl/mob_profile.jpg" alt="mob-profile">
   <img src="/img/hipstamatic-oggl/mob_zoom.jpg" alt="mob-zoom">
   <img src="/img/hipstamatic-oggl/tab_profile.jpg" alt="tab-profile">

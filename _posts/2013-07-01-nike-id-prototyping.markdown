@@ -7,52 +7,19 @@ worktype: "Development"
 date:   2013-07-01 19:35:01
 categories: project
 role: Senior Front End Dev
-dates:
-project_site_url:
-project_site_slug:
+dates: 2013
+project_site_url: http://www.nike.com/nikeid
+project_site_slug: nike.com/nikeid
 company_description:
+- <b>R/GA</b> is a full service digital agency creating products, services and communications to help grow client's businesses in the connected age.
 team:
-- 1 Backend Rails Dev
-- 1 Designer
-- 1 CEO
-stack:
+- 1 Project Manager
+- 2 Designer
+stack: Html, css, js.
 contribution:
+- I prototyped 4 different journeys for a new version of the NikeiD shoe builder.
+- Each prototype was used for user testing of a new SwooshID campaign where you by limiting the customization choices, you'd be able to receive to receive your product in 3 days rather than 6 weeks.
 ---
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2013</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        I prototyped 4 different journeys for a new version of the NikeiD shoe builder.
-      </p>
-
-      <p>
-        Each prototype was used for user testing of a new SwooshID campaign where you by limiting the customization choices, you'd be able to receive to receive your product in 3 days rather than 6 weeks.
-      </p>
-      <h3>Stack</h3>
-      <p>
-      </p>
-    </div>
-  </div>
-</div>
-
-<p class="meta">Client: <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.nike.com/nikeid">View site</a></p>
 
 <div class="showcase ">
   <iframe src="//player.vimeo.com/video/75174649" width="1000" height="560" frameborder="0"> </iframe>

@@ -7,52 +7,21 @@ worktype: "Development"
 date:   2013-08-11 09:35:01
 categories: project opensource
 opensource: true
+role: Front End Developer
+dates: 2013
+project_site_url:
+project_site_slug:
+personal_project: true
+company_description:
+- Check out the site at <a href="http://jonathanmatthey.com/beautiful-google-fonts/" target="_blank">/beautiful-google-fonts</a>
+- Code available on <a href="https://github.com/jonathanmatthey/beautiful-web-type" target="_blank">github</a>.
+team:
+- Just me
+stack: Html, scss, js.
+contribution:
+- I didn't design these pairs but I built a font tester tool that allows you to click on these samples and preview what your text would look like.
+- There are over 600 typefaces in the Google web fonts directory. Many of them are awful. But there are also high-quality typefaces that deserve a closer look.
 ---
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2013</h3>
-      <a href="http://jonathanmatthey.com/beautiful-google-fonts/">view site</a>
-      <br/><br/>
-      <a href="https://github.com/jonathanmatthey/beautiful-web-type">github</a>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-
-      <p>
-        A showcase of the best typefaces from the Google web fonts directory.
-      </p>
-
-      <p>
-        There are over 600 typefaces in the Google web fonts directory. Many of them are awful. But there are also high-quality typefaces that deserve a closer look.
-      </p>
-      <p>
-        Try them out <a href="http://jonathanmatthey.com/beautiful-google-fonts/">here</a>.
-      </p>
-
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        Just me
-      </p>
-      <h3>Stack</h3>
-      <p>
-        Html, scss.
-      </p>
-    </div>
-  </div>
-</div>
 
 <div class="showcase">
   <img src="/img/beautiful-google-web-type/1.jpg" alt="beautiful-google-web-type-1">

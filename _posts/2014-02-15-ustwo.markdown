@@ -6,53 +6,19 @@ title:  "Ustwo"
 worktype: "Design & Development"
 date:   2014-02-15 09:35:01
 categories: project
-role: Senior Front End Dev
-dates:
+role: Front End Developer
+dates: 2014
 project_site_url:
 project_site_slug:
 company_description:
+- Ustwo is a digital design studio that delivers interaction and user interface design services.
 team:
-- 1 Backend Rails Dev
 - 1 Designer
-- 1 CEO
-stack:
+stack: Html5, scss, bootstrap, wordpress.
 contribution:
+- Redesigned the ustwo public website.  Built on Wordpress, working alongside 2 designers.  I built a responsive site, with large imagery, fixed navigation, blog, job postings.  It was featured and well received on siteinspire.com.
 ---
 
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2014</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-        Ustwo is a digital design studio that delivers interaction and user interface design services.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-      <p>
-        Redesigned the ustwo public website.  Built on Wordpress, working alongside 2 designers.  I built a responsive site, with large imagery, fixed navigation, blog, job postings.  It was featured and well received on siteinspire.com.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        1 Designer
-      </p>
-      <h3>Stack</h3>
-      <p>
-        Html5, scss, bootstrap, wordpress.
-      </p>
-    </div>
-  </div>
-</div>
 
 <div class="showcase ">
   <img src="/img/ustwo/ustwo-on-inspire.jpg" alt="ustwo-on-inspire">
