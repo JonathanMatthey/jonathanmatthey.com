@@ -74,12 +74,14 @@ $$$:                      X$$$$$$$$$N..:dN
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://vjs.zencdn.net/5-unsafe/video-js.css" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ site.baseurl }}all.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
   <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
 
   <script src="{{ site.baseurl }}js/modernizr-2.0.6.min.js"></script>
+
 </head>
 
 <body>
@@ -137,6 +139,7 @@ $$$:                      X$$$$$$$$$N..:dN
   </div> <!--! end of #container -->
 
   <script src="/js/jquery-1.10.2.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
   <script defer src="{{ site.baseurl }}all.js"></script>
   <script>
     window._gaq = [['_setAccount','{{ site.analytics }}'],['_trackPageview'],['_trackPageLoadTime']];

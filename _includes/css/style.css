@@ -644,12 +644,7 @@ td {
     margin-right:auto;
   }
 
-  .post .showcase{
-    margin-top: 100px;
-  }
-
   .post .showcase.passworded{
-    // display: none;
   }
 
   .showcase__password__screen{
@@ -664,6 +659,11 @@ td {
 
   .post .showcase h2{
     margin-bottom: 40px;
+  }
+
+  .showcase .video-js{
+    margin-top: 30px;
+    margin-bottom: 60px;
   }
 
   .post .meta a,
@@ -683,8 +683,8 @@ td {
   }
 
   .project-description{
-    padding-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 20px;
+    margin-bottom: 20px;
   }
 
   .project-assets{
@@ -694,14 +694,13 @@ td {
   .post-wide{
     position: relative;
     text-align: center;
-    border-left-width: 50px;
-    border-right-width: 50px;
     max-width: 1660px;
     margin-left: auto;
     margin-right: auto;
     border-color: transparent;
     border-style: solid;
   }
+
 
   .post-wide-hero{
     margin-top:30px;
@@ -732,14 +731,33 @@ td {
     box-sizing: border-box;
   }
 
-  .post-wide .project-description .col {
-    width: 20%;
+  @media only screen and (min-width: 1024px) {
+    .project-description{
+      padding-top: 80px;
+      margin-bottom: 80px;
+    }
+
+    .post-wide{
+      border-left-width: 50px;
+      border-right-width: 50px;
+    }
+
+    .post-wide .project-description > .row > .col:nth-child(1) {
+      width: 25%;
+    }
+    .post-wide .project-description > .row > .col:nth-child(2) {
+      width: 30%;
+      margin-right: 5%;
+    }
+    .post-wide .project-description > .row > .col:nth-child(3) {
+      width: 40%;
+    }
   }
-  .post-wide .project-description .col:nth-child(2) {
-    width: 25%;
-  }
-  .post-wide .project-description .col:nth-child(3) {
-    width: 35%;
+
+  .col-50{
+    width: 50%;
+    display: inline-block;
+    float:left;
   }
 
 
@@ -749,7 +767,30 @@ td {
   .post-wide h3{
   }
 
+  .video-js{
+    max-width: 100%;
+  }
 
+  .embed-container{
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .embed-container { margin-top:30px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
   /* ==|== non-semantic helper classes ======================================== */
   .ir {
@@ -815,6 +856,10 @@ td {
 
 
   @media only screen and (max-width: 1024px) {
+    .next-project, .prev-project{
+      display: none;
+    }
+
     header {
       top: 0px;
       width: 100%;
@@ -844,7 +889,7 @@ td {
   }
 
   @media only screen and (max-width: 600px) {
-    header h1 {
+   /*  header h1 {
       display: none;
     }
 
@@ -902,7 +947,7 @@ td {
 
 
     h2{
-    }
+    } */
 
     .next-project, .prev-project{
       height:14px;

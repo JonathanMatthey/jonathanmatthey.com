@@ -6,47 +6,34 @@ title:  "Eko"
 worktype: "Development"
 date:   2016-04-01 01:01:01
 categories: project
+role: Javascript / Interactive Developer
+dates: 2017
+project_site_url: http://www.helloeko.com
+project_site_slug: www.helloeko.com
+company_description:
+- Eko delivers cinematic interactive video, empowering participants to make choices that shape stories in real time.
+team:
+- 1 Motion Designer
+- 1 Project Manager
+stack: Vanilla JS, scss, html, css.
+contribution:
+- I built a number of interactive videos all coded in vanilla js.  The interactive video player preloads video segments for each possible fork, it then plays the correct video segments according to the user's interaction.
+- As a side project I also developed an Interactive VR Video Player, you watched a 360 video and at certain points shake your head yes or no to respond to the actor, the narrative changes according to your choices.
 ---
 
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Senior Front End Dev</h3>
-      <h3>2017</h3>
-      <a href="http://www.helloeko.com">www.helloeko.com</a>
-    </div>
-    <div class="col">
-      <h3>Company</h3>
-      <p>
-        Eko delivers cinematic interactive video, empowering participants to make choices that shape stories in real time.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-      <p>
-    Built a interactive trailer for the Straight out of Compton DVD release.  You can choose one of the 3 main characters, Dre, Easy E, Ice Cube and make choices on their careers and songs.
-      </p>
-      <p>
-        Developed an Interactive VR Video Player, you watch a 360 video and at certain points shake your head yes or no to respond to the actor, the narrative changes according to your choices.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        1 Motion Designer<br/>
-        1 Project Manager
-      </p>
-      <h3>Stack</h3>
-      <p>
-        Vanilla JS, scss, html, css.
-      </p>
-    </div>
-  </div>
-</div>
-
 <div class="showcase">
-  <iframe width="854" height="480" frameborder="0" allowfullscreen src="http://stage.interlude.fm/compton/embed.html?publisherID=fQLtND"></iframe>
+  <h3>Clash Up</h3>
+  <video id="" class="video-js vjs-sublime-skin" controls preload="none" poster='/img/eko/clash-up-cover.jpg' data-setup='{"fluid": true}'>
+    <source src="/video/eko/clash-up-trailer.mp4" type='video/mp4'>
+  </video>
+  <h3>Possibilia</h3>
+  <video id="" class="video-js vjs-sublime-skin" controls preload="none" poster='/img/eko/possibilia-cover.png' data-setup='{"fluid": true}'>
+    <source src="/video/eko/possibilia-trailer.mp4" type='video/mp4'>
+  </video>
+  <h3>Coca Cola</h3>
+  <video id="" class="video-js vjs-sublime-skin" controls preload="none" poster='/img/eko/coca-cola-cover.jpg' data-setup='{"fluid": true}'>
+    <source src="/video/eko/coca-cola-trailer.mp4" type='video/mp4' >
+  </video>
 
   <img src="/img/eko/unity-poc.png" alt="interlude-unity-poc">
 </div>

@@ -6,49 +6,22 @@ title:  "Atomi"
 worktype: "Development"
 date:   2016-07-16 01:01:01
 categories: project
+role: Senior Front End Dev
+dates: 2016 - 9 months
+project_site_url: http://www.getatomi.com
+project_site_slug: www.getatomi.com
+company_description:
+- Atomi deliver millions of video lessons each year to students around the world, helping to extend learning beyond the classroom and empowering students and teachers to work better together.
+team:
+- 1 Backend PHP Dev
+- 1 Designer
+- 1 CEO
+stack: Reactjs, Redux, CakePHP, SCSS, bootstrap.
+contribution:
+- I redesigned atomi's main site, as well as their user dashboard and account pages, all in React / Redux.  Their previous solution was a CakePHP MVC framework and they wanted to move to a client side / API architecture with Reactjs, Redux and Laraval PHP API backend.
+- Working full remotely as Atomi are based in Sydney Australia, I collaborated with a designer and back end developer.
+- The blog is built on Ghost, using nodejs I built a custom theme to match the atomi brand.
 ---
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Senior Front End Dev</h3>
-      <h3>2016 - 9 months</h3>
-      <a class="project-link" href="http://www.getatomi.com">www.getatomi.com</a>
-    </div>
-    <div class="col">
-      <h3>Company</h3>
-      <p>
-        Atomi deliver millions of lessons each year to students around the world, helping to extend learning beyond the classroom and empowering students and teachers to work better together.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-      <p>
-        I redesigned atomi's new landing page site and blog in React.  Their previous solution was a CakePHP MVC framework and they wanted to move to a client side / API architecture with Reactjs, Redux and Laraval PHP API backend.
-      </p>
-      <p>
-        Working full remotely as Atomi are based in Sydney Australia, I collaborated with a designer and back end developer.
-      </p>
-      <p>
-        The blog is built on Ghost which is also nodejs based and custom styled.  The site hits back end api endpoints to display lists of subjects, sign new users up and login.  Blog articles are also stored on their databases.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        1 Backend PHP<br/>
-        1 Designer<br/>
-        1 CEO
-      </p>
-      <h3>Stack</h3>
-      <p>
-        Reactjs, Redux, CakePHP, SCSS, bootstrap.
-      </p>
-    </div>
-  </div>
-</div>
-
 
 <div class="showcase__password__screen">
   <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
@@ -59,7 +32,7 @@ categories: project
   <br/>
   <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/GO0Spv7KHuI?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
-<h3>Screenshots</h3>
+  <h3>Screenshots</h3>
   <img src="/img/atomi/atomi-com-1.jpg" alt="atomi-com-1">
   <img src="/img/atomi/atomi-com-1b.jpg" alt="atomi-com-1b">
   <img src="/img/atomi/atomi-com-2.jpg" alt="atomi-com-2">

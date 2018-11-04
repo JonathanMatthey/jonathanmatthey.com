@@ -6,53 +6,27 @@ title:  "Fuisz Media"
 worktype: "Design & Development"
 date:   2014-12-15 09:35:01
 categories: project
+role: Senior Lead Front End Dev
+dates: 2014 - 18months
+company_description:
+- Fuisz turns any video into an interactive experience, allowing the viewer to touch, hover or click on any object to discover new content. This can include product information, innovative branded experiences, direct links to company websites and the ability to buy the item. Fuisz works with the world’s top advertising agencies and global brands such...
+team:
+- 2 Backend JS Dev
+- 1 CTO
+- 1 CEO
+stack: Angular 1.6, NodeJS, expressjs, mongodb.
+contribution:
+- Designed and built whole new angular.js studio for clients and managers to create interactive video experiences.
+- The studio comprised of a tagging tool where you can identify items to be tracked.  A theme builder and individual content block editor that are displayed when users interact with the items in the video.  I also built an analytics dashboard with reports of video performances
+- I joined the team when we were 4 and slowly built the team to 12 where I was leading 3 front end developers, each working on different aspects of the studio and experiences.
 ---
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Lead Front End Developer</h3>
-      <h3>2014</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      Patients Know Best is a British social enterprise, with an aim of putting patients in control of their own medical records. Patients Know Best also integrates into the NHS Connecting for Health network to provide patients with tools to work with clinicians.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-      <p>
-        Designed and built whole new angular.js studio for clients and managers to create interactive video experiences.
-      </p>
-      <p>
-        The studio comprises of a tagging tool where you can identify items to be tracked.  A theme builder and individual content block editor that are displayed when users interact with the items in the video.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        1 CEO<br/>
-        1 CTO<br/>
-        2 Backend Developers
-      </p>
-      <h3>Stack</h3>
-      <p>
-        Angular 1.6, NodeJS, expressjs, mongodb.
-      </p>
-    </div>
-  </div>
-</div>
 
 <div class="showcase passworded">
 
-  <h2>Fuisz Media Interactive Product Showcase</h2>
-  <style>.embed-container { margin-top:30px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/BJC26tdEOUM' frameborder='0' allowfullscreen></iframe></div>
+  <h3>Fuisz Media Interactive Product Showcase</h3>
+  <div class='embed-container'><iframe src='https://www.youtube.com/embed/BJC26tdEOUM' frameborder='0' allowfullscreen></iframe></div>
 
-  <h2>new angular.js studio</h2>
+  <h3>new angular.js studio</h3>
   <img src="/img/fuiszmedia-video-studio/angularjs-studio0.jpg" alt="">
   <img src="/img/fuiszmedia-video-studio/angularjs-studio1.jpg" alt="">
   <img src="/img/fuiszmedia-video-studio/angularjs-studio2.jpg" alt="">
@@ -63,11 +37,11 @@ categories: project
   <img src="/img/fuiszmedia-video-studio/angularjs-studio7.jpg" alt="">
 
 
-  <h2>REACT Studio Lite</h2>
+  <h3>REACT Studio Lite</h3>
   <img src="/img/fuiszmedia-video-studio/fuisz-react-1.jpg" alt="">
   <img src="/img/fuiszmedia-video-studio/fuisz-react-2.jpg" alt="">
 
-  <h2>old studio</h2>
+  <h3>old studio</h3>
   <img src="/img/fuiszmedia-video-studio/fuisz2.png" alt="fuiszmedia-video-studio-1">
   <img src="/img/fuiszmedia-video-studio/fuisz3.png" alt="fuiszmedia-video-studio-2">
 </div>

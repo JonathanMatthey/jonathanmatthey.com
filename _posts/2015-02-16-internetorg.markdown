@@ -6,51 +6,21 @@ title:  "Internet.org by facebook"
 worktype: "Development"
 date:   2015-02-21 01:01:01
 categories: project
+role: Front End Dev
+dates: 2015
+company_description:
+- <b>Facebook</b> is a social network, that came after myspace and before [insert next big thing].
+- <b>B-Reel</b> is an international creative agency working globally offering strategy, design, branding, positioning, digital, traditional and new media advertising services.
+team:
+- 1 Project Manager
+- 2 Designers
+- 1 Backend PHP Developer
+- 1 iOS Developer
+stack: jQuery, Vanilla JS, laravel PHP, html5, scss.
+contribution:
+- At B-Reel, in a 3 month project I built the desktop and mobile web marketing campaign for facebook's launch of internet.org.  Fully responsive, it told individiual stories of exceptional characters around the world who had achieved some great things without the internet.
+- I used plenty of parallax, scroll points, css3 animations and webgl concepts to make this as interactive as possible.  It also degraded gracefully on lower end devices.
 ---
-
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2015</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-        Facebook is a social network, that came after myspace and before [insert next big thing].
-      </p>
-      <p>
-        Internet.org was a campaign by facebook to ...
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus, temporibus! Quasi expedita quidem sunt, sed aliquid, illo voluptatum provident iure ut deleniti reprehenderit praesentium sequi. Debitis id, alias a.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus, temporibus! Quasi expedita quidem sunt, sed aliquid, illo voluptatum provident iure ut deleniti reprehenderit praesentium sequi. Debitis id, alias a.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        1 Project Manager<br/>
-        2 Designers<br/>
-        1 Backend PHP Developer<br/>
-        1 iOS Developer
-      </p>
-      <h3>Stack</h3>
-      <p>
-        jQuery, Vanilla JS, laravel PHP, html5, scss.
-      </p>
-    </div>
-  </div>
-</div>
 
 <div class="showcase passworded">
   <iframe src="//player.vimeo.com/video/122216449" width="1000" height="540" frameborder="0"> </iframe>

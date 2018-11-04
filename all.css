@@ -2,4 +2,5 @@
 ---
 {% include css/960.css %}
 {% include css/fontawesome.css %}
+{% include css/vjs-skin.css %}
 {% include css/style.css %}

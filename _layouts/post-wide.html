@@ -8,10 +8,47 @@ layout: default
       <source src="{{page.video}}" type="video/mp4">
     </video>
   {% else %}
-    <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url(/img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
+    <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url({{ site.baseurl }}img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
   {% endif %}
   <div class="post post-wide">
-    <!-- <div class="separator"></div> -->
+    <div class="project-description">
+      <div class="row clearfix">
+        <div class="col">
+          <h2 class="project-title">{{ page.title }}</h2>
+          <h3>{{ page.role }}</h3>
+          <h3>{{ page.dates }}</h3>
+          <a class="project-link" href="{{ page.project_site_url }}" target="_blank">{{ page.project_site_slug }}</a>
+        </div>
+        <div class="col">
+          <h3>Company</h3>
+          {% for p in page.company_description %}
+            <p>{{ p | textilize }}</p>
+          {% endfor %}
+          <div class="row">
+            <div class="col-50">
+              <h3>Team</h3>
+              <p>
+                {% for t in page.team %}
+                  {{ t | textilize }}<br/>
+                {% endfor %}
+              </p>
+            </div>
+            <div class="col-50">
+              <h3>Stack</h3>
+              <p>
+                {{ page.stack }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h3>Contribution</h3>
+          {% for p in page.contribution %}
+            <p>{{ p | textilize }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
     {{ content }}
   </div>
 </div>
