@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 uid: gotryiton-ios-app
 title:  "Go Try It On - iOS App Recommendations"
 worktype: "iOS Development"

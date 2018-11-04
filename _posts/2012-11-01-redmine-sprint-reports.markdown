@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#B51E1F"
 uid: redmine-d3js-sprint-reports
 title:  "Redmine d3.js Sprint Reports"
 worktype: "Design & Development"

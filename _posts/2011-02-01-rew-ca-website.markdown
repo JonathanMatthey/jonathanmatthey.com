@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#E6F4F7"
 uid: rew-ca-website
 title:  "Real Estate Weekly.ca"
 worktype: "Ruby on Rails Development"

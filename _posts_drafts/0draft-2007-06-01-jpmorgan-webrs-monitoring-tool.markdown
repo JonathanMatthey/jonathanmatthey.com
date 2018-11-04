@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 uid: jpmorgan2
 title:  "JPMorgan WebRS Monitoring System"
 worktype: "Development"

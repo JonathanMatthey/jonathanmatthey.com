@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 title:  "Welcome to Jekyll!"
 date:   2013-09-11 09:35:01
 categories: jekyll update

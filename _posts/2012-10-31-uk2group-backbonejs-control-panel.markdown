@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#F8F8F8"
 uid: uk2group-backbonejs
 title: "uk2group backbonejs control panel"
 worktype: "Design & Development"

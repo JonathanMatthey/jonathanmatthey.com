@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#F8F8F8"
 uid: vintage-fashion-guide-ios-app
 title:  "Vintage Fashion Guide App"
 worktype: "iOS Development"

@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 uid: james-turrell-in-css
 title:  "James Turrell in CSS"
 worktype: "Design & Development"

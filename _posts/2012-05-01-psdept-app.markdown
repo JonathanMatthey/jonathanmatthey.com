@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#F8F8F8"
 uid: psdept-ios-app
 title:  "PSDept App"
 worktype: "iOS Development"

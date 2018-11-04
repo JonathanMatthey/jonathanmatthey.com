@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#1A3789"
 uid: dasani-facebook-app
 title: "Dasani Water Facebook App"
 worktype: "Development"

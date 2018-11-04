@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#F8F8F8"
 uid: lego-chess-robot
 title:  "Lego Chess Robot"
 worktype: "Prototyping"

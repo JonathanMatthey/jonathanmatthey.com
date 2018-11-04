@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 uid: high-school-art-portfolio
 title:  "High School Art Portfolio"
 worktype: "Art"

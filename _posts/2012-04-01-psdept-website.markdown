@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#000"
 uid: psdept-website
 title:  "PSDept - Website Design & Development"
 worktype: "Development"

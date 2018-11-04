@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#F8F7F2"
 uid: gotryiton-website
 title:  "Go Try It On - Website and iOS redesign"
 worktype: "Design & Development"

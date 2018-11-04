@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 uid: refinery29
 title: "Refinery29 Semantic Editor"
 worktype: "Design & Development"

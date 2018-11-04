@@ -1,5 +1,6 @@
 ---
-layout: post-narrow
+layout: post-wide
+hero-bg-color: "#000"
 uid: nike-com-mobile-front-end
 title:  "Nike.com - Mobile Front End"
 worktype: "Development"
