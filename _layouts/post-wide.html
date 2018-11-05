@@ -63,5 +63,11 @@ layout: default
   </div>
 </div>
 
-<a href="{{page.next.url}}" title="{{page.next.title}}" class="next-project target"></a>
-<a href="{{page.previous.url}}" title="{{page.previous.title}}" class="prev-project target"></a>
+
+
+{% if page.next.url %}
+  <a href="{{page.next.url}}" title="{{page.next.title}}" class="next-project target"></a>
+{% endif %}
+{% if page.previous.url %}
+  <a href="{{page.previous.url}}" title="{{page.previous.title}}" class="prev-project target"></a>
+{% endif %}
