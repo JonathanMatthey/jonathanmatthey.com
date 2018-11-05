@@ -6,55 +6,16 @@ title:  "Silentweshout"
 worktype: "Entrepreneurial"
 date:   2009-09-01 09:35:01
 categories: project
-role: Senior Front End Dev
-dates:
+role: Entrepreneur
+dates: 2009
 project_site_url:
 project_site_slug:
 company_description:
-team:
-- 1 Backend Rails Dev
-- 1 Designer
-- 1 CEO
-stack:
+- A friend and I established Silent We Shout, a not for profit Graduate Fashion Retail Platform based in London.
 contribution:
+- We supported 19 talented fashion designers to develop their careers within the industry. Secured sponsorship from high street fashion brands Reebok and Warehouse, fashion boutiques and recommendations from the British Fashion Council.
+- We broke even after our first event. The time and effort required to continue had killed us and we closed shop.
 ---
-
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2013</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-      </p>
-      <h3>Stack</h3>
-      <p>
-      </p>
-    </div>
-  </div>
-</div>
-
-<p>
-  Established Silent We Shout, a not for profit Graduate Fashion Retail Platform based in London. We supported 19 talented fashion designers to develop their careers within the industry. Secured sponsorship from high street fashion brands Reebok and Warehouse, fashion boutiques and recommendations from the British Fashion Council.
-</p>
-<p>
-  We broke even after our first event. The time and effort required to continue had killed us and we closed shop.
-</p>
-
-<p class="meta">Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>
 
 <div class="showcase">
 	<img src="/img/silentweshout/silentweshout0.jpg" alt="silentweshout-1">
