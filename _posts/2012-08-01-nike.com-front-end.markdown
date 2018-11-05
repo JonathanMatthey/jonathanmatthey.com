@@ -8,69 +8,25 @@ date:   2012-08-01 16:35:01
 categories: project
 role: Senior Front End Dev
 dates:
-project_site_url:
-project_site_slug:
+project_site_url: https://www.nike.com
+project_site_slug: nike.com
 company_description:
+- <b>R/GA</b> is a full service digital agency creating products, services and communications to help grow client's businesses in the connected age.
 team:
-- 1 Backend Rails Dev
-- 1 Designer
-- 1 CEO
-stack:
+- 3 Designers
+- 2 UX Designers
+- 1 Project Manager
+stack: HTML, css, scss, js
 contribution:
+  Working closely with designers and UX, I built, prototyped and refined final mobile solutions for the main nike.com site.  The biggest challenges were a robust and intuitive navigation, a smooth checkout process, a clean basket and variation of different product pages.
+  I also ran performance test with Charles, trying to reduce image sizes and recording the variation in perceived load time.
+  On the main desktop site, I built a number of innovative hero displays, animated product rotations, interactive features, as well as building tools for the Nike content creators to understand the concept of breakpoints.
 ---
 
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2013</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-      </p>
-      <h3>Stack</h3>
-      <p>
-      </p>
-    </div>
-  </div>
-</div>
-
-<p>
-  My longest project at R/GA was completing the nike.com mobile front end.
-</p>
-
-<p>
-  Working closely with designers and UX, I built, prototyped and refined final mobile solutions for the main nike.com site.  The biggest challenges were a robust and intuitive navigation, a smooth checkout process, a clean basket and variation of different product pages.
-</p>
-
-<p>
-  I also ran performance test with Charles, trying to reduce image sizes and recording the variation in perceived load time.
-</p>
-
-<p>
-  On the main desktop site, I built a number of innovative hero displays, animated product rotations, interactive features, as well as building tools for the Nike content creators to understand the concept of breakpoints.
-</p>
-
-<p class="meta">Client <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="https://www.nike.com">view site</a> </p>
-
-<div class="showcase__password__screen">
-  <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
-</div>
-
 <div class="showcase passworded">
+  <div class="videoWrapper">
+    <iframe src="//player.vimeo.com/video/75705388" width="1000" height="560" frameborder="0"> </iframe>
+  </div>
   <img src="/img/nike-com-mobile-front-end/1.jpg" alt="1">
-  <iframe src="//player.vimeo.com/video/75705388" width="1000" height="560" frameborder="0"> </iframe>
-  <iframe width="1120" height="630" src="//www.youtube.com/embed/atPzQaDsQf0" frameborder="0" > </iframe>
+  <!-- <iframe width="1120" height="630" src="//www.youtube.com/embed/atPzQaDsQf0" frameborder="0" > </iframe> -->
 </div>

@@ -23,9 +23,11 @@ contribution:
 
 <div class="showcase">
   <h3>Clash Up</h3>
-  <video id="" class="video-js vjs-sublime-skin" controls preload="none" poster='/img/eko/clash-up-cover.jpg' data-setup='{"fluid": true}'>
-    <source src="/video/eko/clash-up-trailer.mp4" type='video/mp4'>
-  </video>
+  <div class="videoWrapper">
+    <video id="" class="video-js vjs-sublime-skin" controls preload="none" poster='/img/eko/clash-up-cover.jpg' data-setup='{"fluid": true}'>
+      <source src="/video/eko/clash-up-trailer.mp4" type='video/mp4'>
+    </video>
+  </div>
   <h3>Possibilia</h3>
   <video id="" class="video-js vjs-sublime-skin" controls preload="none" poster='/img/eko/possibilia-cover.png' data-setup='{"fluid": true}'>
     <source src="/video/eko/possibilia-trailer.mp4" type='video/mp4'>

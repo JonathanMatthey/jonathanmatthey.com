@@ -31,20 +31,24 @@ layout: default
             <p>{{ p | textilize }}</p>
           {% endfor %}
           <div class="row">
-            <div class="col-50">
-              <h3>Team</h3>
-              <p>
-                {% for t in page.team %}
-                  {{ t | textilize }}<br/>
-                {% endfor %}
-              </p>
-            </div>
-            <div class="col-50">
-              <h3>Stack</h3>
-              <p>
-                {{ page.stack }}
-              </p>
-            </div>
+            {% if page.team %}
+              <div class="col-50">
+                <h3>Team</h3>
+                <p>
+                  {% for t in page.team %}
+                    {{ t | textilize }}<br/>
+                  {% endfor %}
+                </p>
+              </div>
+            {% endif %}
+            {% if page.stack %}
+              <div class="col-50">
+                <h3>Stack</h3>
+                <p>
+                  {{ page.stack }}
+                </p>
+              </div>
+            {% endif %}
           </div>
         </div>
         <div class="col">

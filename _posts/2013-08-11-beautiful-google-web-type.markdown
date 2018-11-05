@@ -9,8 +9,6 @@ categories: project opensource
 opensource: true
 role: Front End Developer
 dates: 2013
-project_site_url:
-project_site_slug:
 personal_project: true
 company_description:
 - Check out the site at <a href="http://jonathanmatthey.com/beautiful-google-fonts/" target="_blank">/beautiful-google-fonts</a>

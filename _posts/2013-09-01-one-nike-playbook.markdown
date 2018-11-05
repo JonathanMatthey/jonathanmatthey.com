@@ -6,68 +6,26 @@ title:  "Nike.com Internal Playbook"
 worktype: Development
 date:   2013-04-01 09:35:01
 categories: project
-role: Senior Front End Dev
-dates:
-project_site_url:
-project_site_slug:
+role: Front End Developer
+dates: 2013
 company_description:
+- <b>Nike</b> make shoes, swoosh.
+- <b>R/GA</b> is a full service digital agency creating products, services and communications to help grow client's businesses in the connected age.
 team:
-- 1 Backend Rails Dev
+- 1 Front End Developer
 - 1 Designer
-- 1 CEO
-stack:
+stack: HTML, css, js.
 contribution:
+- Nike were looking for an interactive guide for their internal content creators.  They wanted to communicate both company goals and detailed instructions in a rich interesting fashion.
+- In a team of 3, 2 developers and a designer, we unfolded this two book concept of a black book and a white.  The black book was split in 3 parts, one long scrolling experience with animations appearing at certain points.
+- The white book outlined how different components fit into bigger pages on both the desktop nike.com and the mobile site.  It includes breakdowns of campaigns and interesting javascript notation with canvas arrows that can all be edited on the backend.
+- An admin screen was built to maintain each section, we built a WISYWIG editors and an asset manager too.
 ---
 
-<div class="project-description">
-  <div class="row clearfix">
-    <div class="col">
-      <h2 class="project-title">{{ page.title }}</h2>
-      <h3>Front End Developer</h3>
-      <h3>2013</h3>
-    </div>
-    <div class="col">
-      <h3>
-        Company
-      </h3>
-      <p>
-      </p>
-    </div>
-    <div class="col">
-      <h3>Contribution</h3>
-      <p>
-        Nike were looking for an interactive guide for their internal content creators.  They wanted to communicate both company goals and detailed instructions in a rich interesting fashion.
-      </p>
-      <p>
-        In a team of 3, 2 developers and a designer, we unfolded this two book concept of a black book and a white.  The black book was split in 3 parts, one long scrolling experience with animations appearing at certain points.
-      </p>
-      <p>
-        The white book outlined how different components fit into bigger pages on both the desktop nike.com and the mobile site.  It includes breakdowns of campaigns and interesting javascript notation with canvas arrows that can all be edited on the backend.
-      </p>
-      <p>
-        An admin screen was built to maintain each section, we built a WISYWIG editors and an asset manager too.
-      </p>
-    </div>
-    <div class="col">
-      <h3>Team</h3>
-      <p>
-        1 Designer<br/>
-      </p>
-      <h3>Stack</h3>
-      <p>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<p class="meta">Client: <strong>Nike</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong> | <a href="http://www.onedigitalplaybook.com">www.onedigitalplaybook.com</a> </p>
-
-<div class="showcase__password__screen">
-  <input type="password" id="showcase__password" value="" placeholder="Enter password for assets"/>
-</div>
 <div class="showcase passworded">
-  <iframe src="//player.vimeo.com/video/71517474" width="1000" height="560" frameborder="0"> </iframe>
+  <div class="videoWrapper">
+    <iframe src="//player.vimeo.com/video/71517474" width="1000" height="560" frameborder="0"> </iframe>
+  </div>
   <img src="/img/nike-com-internal-playbook/1.jpg" alt="1">
   <img src="/img/nike-com-internal-playbook/2.jpg" alt="2">
   <img src="/img/nike-com-internal-playbook/3.jpg" alt="3">

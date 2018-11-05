@@ -23,9 +23,12 @@ contribution:
 ---
 
 <div class="showcase passworded">
-  <iframe src="//player.vimeo.com/video/122216449" width="1000" height="540" frameborder="0"> </iframe>
-  <br/>
-  <iframe src="//player.vimeo.com/video/122216871" width="384" height="640" frameborder="0"> </iframe>
+  <div class="videoWrapper">
+    <iframe src="//player.vimeo.com/video/122216449" width="1000" height="540" frameborder="0"> </iframe>
+  </div>
+  <div class="videoWrapper">
+    <iframe src="//player.vimeo.com/video/122216871" width="384" height="640" frameborder="0"> </iframe>
+  </div>
 
   <img src="/img/internetorg/homepage.jpg" alt="homepage">
   <img src="/img/internetorg/story1.jpg" alt="story1">

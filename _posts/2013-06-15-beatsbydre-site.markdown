@@ -20,7 +20,9 @@ contribution:
 ---
 
 <div class="showcase ">
-  <iframe src="//player.vimeo.com/video/71510303" width="1000" height="560" frameborder="0"> </iframe>
+  <div class="videoWrapper">
+    <iframe src="//player.vimeo.com/video/71510303" width="1000" height="560" frameborder="0"> </iframe>
+  </div>
   <img src="/img/beatsbydre/beats1.jpg" alt="beats1">
   <img src="/img/beatsbydre/beats2.jpg" alt="beats2">
   <img src="/img/beatsbydre/beats4.jpg" alt="beats4">

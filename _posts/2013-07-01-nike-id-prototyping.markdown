@@ -22,7 +22,9 @@ contribution:
 ---
 
 <div class="showcase ">
-  <iframe src="//player.vimeo.com/video/75174649" width="1000" height="560" frameborder="0"> </iframe>
+  <div class="videoWrapper">
+    <iframe src="//player.vimeo.com/video/75174649" width="1000" height="560" frameborder="0"> </iframe>
+  </div>
   <img src="/img/nikeid-prototyping/1.jpg" alt="1">
   <img src="/img/nikeid-prototyping/2.jpg" alt="2">
   <img src="/img/nikeid-prototyping/4.jpg" alt="4">
