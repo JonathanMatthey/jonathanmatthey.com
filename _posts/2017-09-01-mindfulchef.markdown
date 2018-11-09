@@ -6,6 +6,8 @@ title:  "Mindful Chef"
 worktype: "Development"
 date:   2017-07-16 01:01:01
 categories: project
+project_site_url: https://www.mindfulchef.com/
+project_site_slug: mindfulchef.com
 role: Senior Front End Dev
 dates: 2017 - 12 months
 company_description:
