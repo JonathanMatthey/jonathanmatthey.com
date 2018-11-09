@@ -1,13 +1,17 @@
 # Jekyll Grid Portfolio Theme
-### HTML5 Boilerplate Jekyll Base Template
 
-#### What It Looks Like
-<p align="center">
-  <img src="img/jekyll-grid-portfolio.PNG">
-</p>
+__Minimal portfolio theme for jekyll__
 
 #### Installation
 
-1. Fork this repo, or clone and extract it.
-2. Navigate to this project's root directory.
-3. Install [Jekyll](https://jekyllrb.com/) if you haven't already, and run `jekyll serve`.
+```git clone git@github.com:JonathanMatthey/jonathanmatthey.com.git
+cd jonathanmatthey
+bundle i
+bundle exec jekyll serve
+```
+
+## Example
+
+http://jonathanmatthey.com
+
+![](https://i.imgur.com/HU27xIF.png)
