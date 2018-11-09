@@ -4,7 +4,8 @@ __Minimal portfolio theme for jekyll__
 
 #### Installation
 
-```git clone git@github.com:JonathanMatthey/jonathanmatthey.com.git
+```
+git clone git@github.com:JonathanMatthey/jonathanmatthey.com.git
 cd jonathanmatthey
 bundle i
 bundle exec jekyll serve
