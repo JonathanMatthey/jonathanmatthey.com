@@ -1,6 +1,6 @@
 # Jekyll Grid Portfolio Theme
 
-__Minimal portfolio theme for jekyll__
+Minimal portfolio theme for jekyll
 
 #### Installation
 
