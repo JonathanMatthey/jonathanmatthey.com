@@ -1,0 +1,24 @@
+---
+layout: post-wide
+hero-bg-color: "#039AFE"
+uid: kenhub
+title:  "Kenhub"
+worktype: "Development"
+date:   2019-11-20 01:01:01
+categories: project
+project_site_url: https://www.kenhub.com/
+project_site_slug: kenhub.com
+role: Senior Front End Dev
+dates: 2018 - 12 months
+company_description:
+- Healthcare
+team:
+- 1 CEO
+stack: Rails
+contribution:
+-
+---
+
+<p>
+
+</p>
