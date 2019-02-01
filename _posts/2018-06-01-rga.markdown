@@ -1,20 +1,20 @@
 ---
 layout: post-wide
 hero-bg-color: "#039AFE"
-uid: kenhub
-title:  "Kenhub"
+uid: rga
+title:  "Royal Grappling Academy"
 worktype: "Development"
 date:   2018-11-20 01:01:01
 categories: project
-project_site_url: https://www.kenhub.com/
-project_site_slug: kenhub.com
+project_site_url: https://www.rga.ie/
+project_site_slug: rga.ie
 role: Senior Front End Dev
-dates: 2018 - 12 months
+dates: June 2018 - 1 month
 company_description:
-- Healthcare
+- Martial Arts
 team:
 - 1 CEO
-stack: Rails
+stack: Wordpress
 contribution:
 -
 ---
