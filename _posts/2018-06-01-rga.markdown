@@ -4,7 +4,7 @@ hero-bg-color: "#039AFE"
 uid: rga
 title:  "Royal Grappling Academy"
 worktype: "Development"
-date:   2018-11-20 01:01:01
+date:   2018-06-01 01:01:01
 categories: project
 project_site_url: https://www.rga.ie/
 project_site_slug: rga.ie

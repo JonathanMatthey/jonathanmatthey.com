@@ -1,21 +1,21 @@
 ---
 layout: post-wide
 hero-bg-color: "#039AFE"
-uid: live365
-title:  "Live365"
+uid: skedsocial
+title:  "Sked Social"
 worktype: "Development"
-date:   2018-11-20 01:01:01
+date:   2019-05-01 01:01:01
 categories: project
-project_site_url: https://www.live365.com/
-project_site_slug: live365.com
+project_site_url: https://www.skedsocial.com/
+project_site_slug: skedsocial.com
 role: Senior Front End Dev
 dates: 2019
 company_description:
-- Radio
+- Social Media
 team:
 - 1 CEO
 - 1 Backend
-stack: React, nodejs
+stack: React, Angular 1.6, nodejs
 contribution:
 -
 ---
