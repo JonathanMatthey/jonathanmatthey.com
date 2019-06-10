@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#039AFE"
+hero-bg-color: "#100829"
 uid: live365
 title:  "Live365"
 worktype: "Development"
@@ -9,17 +9,33 @@ categories: project
 project_site_url: https://www.live365.com/
 project_site_slug: live365.com
 role: Senior Front End Dev
-dates: 2019
+dates: 2019 - 9 months
 company_description:
 - Radio
 team:
 - 1 CEO
-- 1 Backend
-stack: React, nodejs
+- 3 Backend Devs
+stack: React, Redux, nodejs
 contribution:
--
+- Design & Development
 ---
 
 <p>
-
+  Fully designed and built a brand new React / Redux dashboard for admins and broadcasters to manage their live radio stations.
 </p>
+
+<p>
+  Broadcasters can create stations, upload and manage tracks, change broadcasting settings and review their analytics.
+</p>
+
+<p>
+  There's a completel onboarding flow for new users as well as existing ones.
+</p>
+
+<div class="showcase ">
+  <br/>
+  <br/>
+  <br/>
+  <h3>Screenshots</h3>
+  <img src="/img/live365/live365-1.jpg" alt="live365-1">
+</div>

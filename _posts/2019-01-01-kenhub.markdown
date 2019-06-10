@@ -9,16 +9,30 @@ categories: project
 project_site_url: https://www.kenhub.com/
 project_site_slug: kenhub.com
 role: Senior Front End Dev
-dates: 2018 - 12 months
+dates: 2018 - 3 months
 company_description:
 - Healthcare
 team:
 - 1 CEO
+- 1 Backend Dev
 stack: Ruby on Rails
 contribution:
--
+- upgraded bourbon / neat styling frameworks
 ---
 
 <p>
-
+  Helped kenhub.com restyle their front end in Bourbon and Neat.  They had old styling frameworks and were looking for an upgrade.  They had chosen Bourbon and Neat as it worked well with their Rails Framework.
 </p>
+<p>
+  I took their exisiting designs and restructured the html, css, less to produce a fully responsive front end
+</p>
+
+<div class="showcase ">
+  <br/>
+  <br/>
+  <br/>
+  <h3>Screenshots</h3>
+  <img src="/img/kenhub/kenhub1.jpg" alt="kenhub1">
+  <img src="/img/kenhub/kenhub2.jpg" alt="kenhub2">
+  <img src="/img/kenhub/kenhub3.jpg" alt="kenhub3">
+</div>
