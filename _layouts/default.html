@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--
 
 
@@ -65,93 +65,163 @@ $$$:                      X$$$$$$$$$N..:dN
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>{{ page.title }} | {{ site.name }}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://vjs.zencdn.net/5-unsafe/video-js.css" rel="stylesheet">
+    <title>{{ page.title }} | {{ site.name }}</title>
+    <meta
+      name="description"
+      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <link rel="stylesheet" href="{{ site.baseurl }}all.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-  <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
+    <style>
+      @font-face {
+        font-family: "FontAwesome";
+        src: url("{{ site.baseurl }}/fonts/fontawesome-webfont.eot?v=4.7.0");
+        src: url("{{ site.baseurl }}/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+            format("embedded-opentype"),
+          url("{{ site.baseurl }}/fonts/fontawesome-webfont.woff2?v=4.7.0")
+            format("woff2"),
+          url("{{ site.baseurl }}/fonts/fontawesome-webfont.woff?v=4.7.0")
+            format("woff"),
+          url("{{ site.baseurl }}/fonts/fontawesome-webfont.ttf?v=4.7.0")
+            format("truetype"),
+          url("{{ site.baseurl }}/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+            format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
 
-  <script src="{{ site.baseurl }}js/modernizr-2.0.6.min.js"></script>
+      @font-face {
+        font-family: "AtlasGrotesk-Thin";
+        src: url("{{ site.baseurl }}/fonts/AtlasGrotesk-Thin.eot?#iefix")
+            format("embedded-opentype"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Thin.otf")
+            format("opentype"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Thin.woff") format("woff"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Thin.ttf")
+            format("truetype"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Thin.svg#AtlasGrotesk-Thin")
+            format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
 
-</head>
+      @font-face {
+        font-family: "AtlasGrotesk-Medium";
+        src: url("{{ site.baseurl }}/fonts/AtlasGrotesk-Medium.eot?#iefix")
+            format("embedded-opentype"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Medium.otf")
+            format("opentype"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Medium.woff")
+            format("woff"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Medium.ttf")
+            format("truetype"),
+          url("{{ site.baseurl }}/fonts/AtlasGrotesk-Medium.svg#AtlasGrotesk-Medium")
+            format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
 
-<body>
-  <header>
-    <div class="inner">
-      <h1 class="site-title">
-        <a href="/">Jonathan Matthey</a></h1>
+    <link
+      href="https://vjs.zencdn.net/5-unsafe/video-js.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/all.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico?v=2" type="image/x-icon" />
+
+    <script src="{{ site.baseurl }}/js/modernizr-2.0.6.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1 class="site-title">
+          <a href="{{ site.baseurl }}/">Jonathan Matthey</a>
+        </h1>
         <a class="initials" href="/">J.M.</a>
-      <nav class="main-nav">
-        <ul>
-<!--           <li>
+        <nav class="main-nav">
+          <ul>
+            <!--           <li>
             <a href="/">Work</a>
           </li> -->
-<!--           <li>
+            <!--           <li>
             <a href="/open-source.html">Open Source</a>
           </li> -->
-<!--           <li>
+            <!--           <li>
             <a href="http://weemovies.com" target="_blank">Wee Movies</a>
           </li> -->
-          <li>
-            <!-- <a href="ideas.html">Ideas</a> -->
-          </li>
-        </ul>
-      </nav>
-      <nav class="sub-nav">
-        <ul>
-          <li style="padding:10px 5px;">
-            <a href="http://instagram.com/weemovies" target="_blank"><i class="fa fa-large fa-instagram"></i></a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="mobile-nav">
-        <ul>
-          <li>
-            <a href="">Projects</a>
-          </li>
-          <li class="">
-            <a href="http://instagram.com/weemovies" target="_blank"><i class="fa fa-large fa-instagram"></i></a>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <!-- <a href="ideas.html">Ideas</a> -->
+            </li>
+          </ul>
+        </nav>
+        <nav class="sub-nav">
+          <ul>
+            <li style="padding: 10px 5px">
+              <a href="http://instagram.com/weemovies" target="_blank"
+                ><i class="fa fa-large fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile-nav">
+          <ul>
+            <li>
+              <a href="">Projects</a>
+            </li>
+            <li class="">
+              <a href="http://instagram.com/weemovies" target="_blank"
+                ><i class="fa fa-large fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="container" class="clearfix">
+      <div id="main" role="main" class="clearfix">{{ content }}</div>
+      <footer></footer>
     </div>
-  </header>
+    <!--! end of #container -->
 
-  <div id="container" class="clearfix">
-    <div id="main" role="main" class="clearfix">
+    <script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
+    <script defer src="{{ site.baseurl }}/all.js"></script>
+    <script>
+      window._gaq = [
+        ["_setAccount", "{{ site.analytics }}"],
+        ["_trackPageview"],
+        ["_trackPageLoadTime"],
+      ];
+      Modernizr.load({
+        load:
+          ("https:" == location.protocol ? "//ssl" : "//www") +
+          ".google-analytics.com/ga.js",
+      });
+    </script>
 
-      {{ content }}
-
-    </div>
-    <footer>
-
-    </footer>
-
-  </div> <!--! end of #container -->
-
-  <script src="/js/jquery-1.10.2.min.js"></script>
-  <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-  <script defer src="{{ site.baseurl }}all.js"></script>
-  <script>
-    window._gaq = [['_setAccount','{{ site.analytics }}'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>
-
-  <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-
-</body>
+    <!--[if lt IE 7]>
+      <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+      <script>
+        window.attachEvent("onload", function () {
+          CFInstall.check({ mode: "overlay" });
+        });
+      </script>
+    <![endif]-->
+  </body>
 </html>

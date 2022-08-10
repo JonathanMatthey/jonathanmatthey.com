@@ -2,21 +2,6 @@
  * ==|== normalize ==========================================================
  */
 
-@font-face {
-  font-family: 'AtlasGrotesk-Thin';
-  src: url('../fonts/AtlasGrotesk-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/AtlasGrotesk-Thin.otf') format('opentype'),
-    url('../fonts/AtlasGrotesk-Thin.woff') format('woff'), url('../fonts/AtlasGrotesk-Thin.ttf') format('truetype'), url('../fonts/AtlasGrotesk-Thin.svg#AtlasGrotesk-Thin') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'AtlasGrotesk-Medium';
-  src: url('../fonts/AtlasGrotesk-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AtlasGrotesk-Medium.otf') format('opentype'),
-    url('../fonts/AtlasGrotesk-Medium.woff') format('woff'), url('../fonts/AtlasGrotesk-Medium.ttf') format('truetype'), url('../fonts/AtlasGrotesk-Medium.svg#AtlasGrotesk-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;

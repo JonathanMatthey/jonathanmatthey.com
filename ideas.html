@@ -4,38 +4,29 @@ title: Ideas
 ---
 
 <ul class="projects clearfix">
-{% for post in site.categories.ideas %}
+  {% for post in site.categories.ideas %}
   <li>
     <div class="project">
-      <a class="cover" href="{{ post.url }}">
+      <a class="cover" href="{{ site.baseurl }}{{ post.url }}">
         <div class="project-details">
-          <span>
-            {{ post.title }}
-          </span>
-          <span>
-            {{ post.worktype }}
-          </span>
-          <span>
-            View project
-          </span>
+          <span> {{ post.title }} </span>
+          <span> {{ post.worktype }} </span>
+          <span> View project </span>
         </div>
       </a>
-      {% if post.opensource %}
-        {% if post.blackbg %}
-          <span class="github-icon light"></span>
-        {% else %}
-          <span class="github-icon"></span>
-        {% endif %}
-      {% endif %}
-      {% if post.progress %}
-        <span class="progress">
-          <span class="under-construction"></span>
-          <span class="progress-bar" style="width: {{ post.progress }}%"></span>
-        </span>
+      {% if post.opensource %} {% if post.blackbg %}
+      <span class="github-icon light"></span>
+      {% else %}
+      <span class="github-icon"></span>
+      {% endif %} {% endif %} {% if post.progress %}
+      <span class="progress">
+        <span class="under-construction"></span>
+        <span class="progress-bar" style="width: {{ post.progress }}%"></span>
+      </span>
       {% endif %}
       <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
       <div class="aspect-two-one"></div>
     </div>
   </li>
-{% endfor %}
+  {% endfor %}
 </ul>
