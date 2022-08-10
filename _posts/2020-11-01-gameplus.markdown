@@ -1,37 +1,50 @@
 ---
 layout: post-wide
-hero-bg-color: "#4E1DFF"
+hero-bg-color: "#240F61"
 uid: gameplus
-title:  "Game Plus"
+title: "Game Plus"
 worktype: "Development"
-date:   2020-11-01 01:01:01
+date: 2020-11-01 01:01:01
 categories: project
 project_site_url: https://www.gameplus.com/
 project_site_slug: gameplus.com
 role: Senior Front End Dev
 dates: 2020 - 2 months
 company_description:
-- Game plus 
+  - Game plus
 team:
-- 1 PM
-- 1 Creative Director
-- 1 Designer
-- 1 Dev
+  - 1 PM
+  - 1 Creative Director
+  - 1 Designer
+  - 1 Dev
 stack: React, Angular 1.6, nodejs
 contribution:
-- Development
+  - Development
 ---
 
 <p>
-  gameplus
+  Built for <a href="http://matteprojects.com">Matteprojects</a>
+</p>
+<p>
+  I was the lead front end dev in building this fully responsive website.<br/>Working on Android and iPhone with plenty of css3 animations, the site content is fully maintainable through a cms backend.
 </p>
 
 <p>
+Watch the desktop and iphone demos
 </p>
 
 <div class="showcase ">
   <br/>
   <br/>
   <br/>
-  <h3>Screenshots</h3>
+  <h3>Demos</h3>
+  <div class="video-container">
+    <iframe class="video" src="https://www.youtube.com/embed/uw_oklUpROM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <br/>
+  <br/>
+  <div class="video-container">
+    <iframe class="video" src="https://www.youtube.com/embed/igJqf-mCqBw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
 </div>

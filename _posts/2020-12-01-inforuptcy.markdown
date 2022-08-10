@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#4E1DFF"
+hero-bg-color: "#262F3D"
 uid: inforuptcy
 title:  "Inforuptcy"
 worktype: "Development"
@@ -23,7 +23,7 @@ contribution:
 ---
 
 <p>
-  Lorem
+  Complete redesign of the React UI, moving it from Drupal to a fully responsive ReactJS dashboard.
 </p>
 
 <p>
@@ -34,4 +34,10 @@ contribution:
   <br/>
   <br/>
   <h3>Screenshots</h3>
+  <img src="/img/inforuptcy/courtdrive1.jpg" alt="courtdrive-0">
+  <img src="/img/inforuptcy/courtdrive1b.jpg" alt="courtdrive-1">
+  <img src="/img/inforuptcy/courtdrive2.jpg" alt="courtdrive-2">
+  <img src="/img/inforuptcy/courtdrive2b.jpg" alt="courtdrive-3">
+  <img src="/img/inforuptcy/courtdrive3.jpg" alt="courtdrive-4">
+  <img src="/img/inforuptcy/courtdrive3b.jpg" alt="courtdrive-5">
 </div>
