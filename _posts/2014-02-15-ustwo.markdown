@@ -21,15 +21,15 @@ contribution:
 
 
 <div class="showcase ">
-  <img src="/img/ustwo/ustwo-on-inspire.jpg" alt="ustwo-on-inspire">
-  <img src="/img/ustwo/1.jpg" alt="ustwo-1">
-  <img src="/img/ustwo/2.jpg" alt="ustwo-2">
-  <img src="/img/ustwo/3.jpg" alt="ustwo-3">
-  <img src="/img/ustwo/4.jpg" alt="ustwo-4">
-  <img src="/img/ustwo/5.jpg" alt="ustwo-5">
-  <img src="/img/ustwo/6.jpg" alt="ustwo-6">
-  <img src="/img/ustwo/7.jpg" alt="ustwo-7">
-  <img src="/img/ustwo/8.jpg" alt="ustwo-8">
+  <img src="{{ site.baseurl }}/img/ustwo/ustwo-on-inspire.jpg" alt="ustwo-on-inspire">
+  <img src="{{ site.baseurl }}/img/ustwo/1.jpg" alt="ustwo-1">
+  <img src="{{ site.baseurl }}/img/ustwo/2.jpg" alt="ustwo-2">
+  <img src="{{ site.baseurl }}/img/ustwo/3.jpg" alt="ustwo-3">
+  <img src="{{ site.baseurl }}/img/ustwo/4.jpg" alt="ustwo-4">
+  <img src="{{ site.baseurl }}/img/ustwo/5.jpg" alt="ustwo-5">
+  <img src="{{ site.baseurl }}/img/ustwo/6.jpg" alt="ustwo-6">
+  <img src="{{ site.baseurl }}/img/ustwo/7.jpg" alt="ustwo-7">
+  <img src="{{ site.baseurl }}/img/ustwo/8.jpg" alt="ustwo-8">
 </div>
 
 

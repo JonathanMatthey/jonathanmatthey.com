@@ -23,11 +23,11 @@ contribution:
 ---
 
 <div class="showcase passworded">
-  <img src="/img/patientsknowbest/pkb-1.jpg" alt="pkb-1">
-  <img src="/img/patientsknowbest/pkb-2.jpg" alt="pkb-2">
-  <img src="/img/patientsknowbest/pkb-2b.jpg" alt="pkb-2b">
-  <img src="/img/patientsknowbest/pkb-3.jpg" alt="pkb-3">
-  <img src="/img/patientsknowbest/pkb-4.jpg" alt="pkb-4">
-  <img src="/img/patientsknowbest/pkb-5.jpg" alt="pkb-5">
-  <img src="/img/patientsknowbest/pkb-6.jpg" alt="pkb-6">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-1.jpg" alt="pkb-1">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-2.jpg" alt="pkb-2">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-2b.jpg" alt="pkb-2b">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-3.jpg" alt="pkb-3">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-4.jpg" alt="pkb-4">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-5.jpg" alt="pkb-5">
+  <img src="{{ site.baseurl }}/img/patientsknowbest/pkb-6.jpg" alt="pkb-6">
 </div>

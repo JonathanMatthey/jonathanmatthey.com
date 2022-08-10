@@ -28,10 +28,10 @@ contribution:
   <div class="videoWrapper">
     <iframe src="//player.vimeo.com/video/75162921" width="1000" height="560" frameborder="0"> </iframe>
   </div>
-  <img src="/img/nike-snowboarding-never-not/2.jpg" alt="nike-snowboarding-never-not-2">
-  <img src="/img/nike-snowboarding-never-not/3.jpg" alt="nike-snowboarding-never-not-3">
-  <img src="/img/nike-snowboarding-never-not/4.jpg" alt="nike-snowboarding-never-not-4">
-  <img src="/img/nike-snowboarding-never-not/1.jpg" alt="nike-snowboarding-never-not-1">
+  <img src="{{ site.baseurl }}/img/nike-snowboarding-never-not/2.jpg" alt="nike-snowboarding-never-not-2">
+  <img src="{{ site.baseurl }}/img/nike-snowboarding-never-not/3.jpg" alt="nike-snowboarding-never-not-3">
+  <img src="{{ site.baseurl }}/img/nike-snowboarding-never-not/4.jpg" alt="nike-snowboarding-never-not-4">
+  <img src="{{ site.baseurl }}/img/nike-snowboarding-never-not/1.jpg" alt="nike-snowboarding-never-not-1">
   <div class="videoWrapper">
     <iframe src="//player.vimeo.com/video/75163586" width="1000" height="560" frameborder="0"> </iframe>
   </div>

@@ -27,23 +27,23 @@ contribution:
   <div class='embed-container'><iframe src='https://www.youtube.com/embed/BJC26tdEOUM' frameborder='0' allowfullscreen></iframe></div>
 
   <h3>new angular.js studio</h3>
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio0.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio1.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio2.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio3.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio4.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio5.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio6.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/angularjs-studio7.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio0.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio1.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio2.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio3.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio4.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio5.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio6.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/angularjs-studio7.jpg" alt="">
 
 
   <h3>REACT Studio Lite</h3>
-  <img src="/img/fuiszmedia-video-studio/fuisz-react-1.jpg" alt="">
-  <img src="/img/fuiszmedia-video-studio/fuisz-react-2.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/fuisz-react-1.jpg" alt="">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/fuisz-react-2.jpg" alt="">
 
   <h3>old studio</h3>
-  <img src="/img/fuiszmedia-video-studio/fuisz2.png" alt="fuiszmedia-video-studio-1">
-  <img src="/img/fuiszmedia-video-studio/fuisz3.png" alt="fuiszmedia-video-studio-2">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/fuisz2.png" alt="fuiszmedia-video-studio-1">
+  <img src="{{ site.baseurl }}/img/fuiszmedia-video-studio/fuisz3.png" alt="fuiszmedia-video-studio-2">
 </div>
 
 

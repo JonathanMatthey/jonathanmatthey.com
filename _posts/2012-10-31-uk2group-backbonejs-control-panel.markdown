@@ -24,9 +24,9 @@ contribution:
   <div class="videoWrapper">
     <iframe width="1120" height="630" src="//www.youtube.com/embed/8vjXGJ1AAPw" frameborder="0" > </iframe>
   </div>
-  <img src="/img/uk2group-backbonejs/1.jpg" alt="1">
-  <img src="/img/uk2group-backbonejs/2.jpg" alt="2">
-  <img src="/img/uk2group-backbonejs/3.jpg" alt="3">
-  <img src="/img/uk2group-backbonejs/4.jpg" alt="4">
+  <img src="{{ site.baseurl }}/img/uk2group-backbonejs/1.jpg" alt="1">
+  <img src="{{ site.baseurl }}/img/uk2group-backbonejs/2.jpg" alt="2">
+  <img src="{{ site.baseurl }}/img/uk2group-backbonejs/3.jpg" alt="3">
+  <img src="{{ site.baseurl }}/img/uk2group-backbonejs/4.jpg" alt="4">
 </div>
 

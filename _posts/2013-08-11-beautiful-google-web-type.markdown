@@ -22,5 +22,5 @@ contribution:
 ---
 
 <div class="showcase">
-  <img src="/img/beautiful-google-web-type/1.jpg" alt="beautiful-google-web-type-1">
+  <img src="{{ site.baseurl }}/img/beautiful-google-web-type/1.jpg" alt="beautiful-google-web-type-1">
 </div>

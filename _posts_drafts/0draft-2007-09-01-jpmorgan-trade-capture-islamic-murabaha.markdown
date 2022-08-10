@@ -25,8 +25,8 @@ contribution:
 <p class="meta">Client: <strong>JPMorganChase</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>
 
 <div class="showcase">
-	<img src="/img/jpmorgan-trade-capture/islamic1.jpg" alt="jpmorgan-trade-capture-1">
-	<img src="/img/jpmorgan-trade-capture/islamic2.jpg" alt="jpmorgan-trade-capture-2">
+	<img src="{{ site.baseurl }}/img/jpmorgan-trade-capture/islamic1.jpg" alt="jpmorgan-trade-capture-1">
+	<img src="{{ site.baseurl }}/img/jpmorgan-trade-capture/islamic2.jpg" alt="jpmorgan-trade-capture-2">
   <h2>This was the old system</h2>
-	<img src="/img/jpmorgan-trade-capture/islamic3.jpg" alt="jpmorgan-trade-capture-2">
+	<img src="{{ site.baseurl }}/img/jpmorgan-trade-capture/islamic3.jpg" alt="jpmorgan-trade-capture-2">
 </div>

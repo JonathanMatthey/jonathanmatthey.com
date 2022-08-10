@@ -28,12 +28,12 @@ progress: 80
 
 <div class="showcase">
   <h2>These are your typical coding conventions on github:</h2>
-  <img style="width:50%" src="/img/croco/1.jpg" alt="">
-  <img style="width:50%" src="/img/croco/2.jpg" alt="">
+  <img style="width:50%" src="{{ site.baseurl }}/img/croco/1.jpg" alt="">
+  <img style="width:50%" src="{{ site.baseurl }}/img/croco/2.jpg" alt="">
   <h2>Here's how you run croco:</h2>
-  <img style="width:50%" src="/img/croco/3.jpg" alt="">
+  <img style="width:50%" src="{{ site.baseurl }}/img/croco/3.jpg" alt="">
   <h2>Edit the markdown file by adding ++++ and ----- before good and bad examples:</h2>
-  <img style="width:50%" src="/img/croco/4.jpg" alt="">
+  <img style="width:50%" src="{{ site.baseurl }}/img/croco/4.jpg" alt="">
   <h2>Generated documentation ready for github</h2>
-  <img style="width:50%" src="/img/croco/5.jpg" alt="">
+  <img style="width:50%" src="{{ site.baseurl }}/img/croco/5.jpg" alt="">
 </div>

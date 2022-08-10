@@ -23,6 +23,6 @@ contribution:
 
 <div class="showcase">
   <iframe width="1120" height="630" src="//www.youtube.com/embed/e9L8YrpNB3w" frameborder="0" > </iframe>
-  <img src="/img/redmine-d3js-sprint-reports/1.jpg" alt="1">
+  <img src="{{ site.baseurl }}/img/redmine-d3js-sprint-reports/1.jpg" alt="1">
 </div>
 

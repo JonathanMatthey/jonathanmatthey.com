@@ -23,12 +23,12 @@ contribution:
 ---
 
 <div class="showcase">
-  <img src="/img/minbox/1.jpg" alt="1">
-  <img src="/img/minbox/2.jpg" alt="2">
-  <img src="/img/minbox/3.jpg" alt="3">
-  <img src="/img/minbox/4.jpg" alt="4">
+  <img src="{{ site.baseurl }}/img/minbox/1.jpg" alt="1">
+  <img src="{{ site.baseurl }}/img/minbox/2.jpg" alt="2">
+  <img src="{{ site.baseurl }}/img/minbox/3.jpg" alt="3">
+  <img src="{{ site.baseurl }}/img/minbox/4.jpg" alt="4">
   <h2>Homepage</h2>
-  <img src="/img/minbox/5.jpg" alt="5">
+  <img src="{{ site.baseurl }}/img/minbox/5.jpg" alt="5">
 </div>
 
 

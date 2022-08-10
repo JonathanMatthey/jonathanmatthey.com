@@ -22,10 +22,10 @@ contribution:
 ---
 
 <div class="showcase">
-	<img src="/img/psdept/psdept-website-1.jpg" alt="psdept-website-1">
-	<img src="/img/psdept/psdept-website-2.jpg" alt="psdept-website-2">
-	<img src="/img/psdept/psdept-website-3.jpg" alt="psdept-website-3">
+	<img src="{{ site.baseurl }}/img/psdept/psdept-website-1.jpg" alt="psdept-website-1">
+	<img src="{{ site.baseurl }}/img/psdept/psdept-website-2.jpg" alt="psdept-website-2">
+	<img src="{{ site.baseurl }}/img/psdept/psdept-website-3.jpg" alt="psdept-website-3">
 
   <h3>PSDept iOS App</h3>
-  <img src="/img/psdept/psdept-ios-app-1.jpg" alt="psdept-ios-app-1">
+  <img src="{{ site.baseurl }}/img/psdept/psdept-ios-app-1.jpg" alt="psdept-ios-app-1">
 </div>

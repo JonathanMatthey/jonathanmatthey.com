@@ -30,9 +30,9 @@ contribution:
     <iframe src="//player.vimeo.com/video/122216871" width="384" height="640" frameborder="0"> </iframe>
   </div>
 
-  <img src="/img/internetorg/homepage.jpg" alt="homepage">
-  <img src="/img/internetorg/story1.jpg" alt="story1">
-  <img src="/img/internetorg/story2.jpg" alt="story2">
-  <img src="/img/internetorg/story3.jpg" alt="story3">
-  <img src="/img/internetorg/story4.jpg" alt="story4">
+  <img src="{{ site.baseurl }}/img/internetorg/homepage.jpg" alt="homepage">
+  <img src="{{ site.baseurl }}/img/internetorg/story1.jpg" alt="story1">
+  <img src="{{ site.baseurl }}/img/internetorg/story2.jpg" alt="story2">
+  <img src="{{ site.baseurl }}/img/internetorg/story3.jpg" alt="story3">
+  <img src="{{ site.baseurl }}/img/internetorg/story4.jpg" alt="story4">
 </div>

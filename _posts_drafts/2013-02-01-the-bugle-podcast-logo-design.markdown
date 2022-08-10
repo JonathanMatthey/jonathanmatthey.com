@@ -19,5 +19,5 @@ contribution:
 ---
 
 <div class="showcase">
-	<img src="/img/the-bugle-podcast-logo-design/1.jpg" alt="the-bugle-podcast-logo-design">
+	<img src="{{ site.baseurl }}/img/the-bugle-podcast-logo-design/1.jpg" alt="the-bugle-podcast-logo-design">
 </div>

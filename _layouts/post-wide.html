@@ -8,7 +8,7 @@ layout: default
       <source src="{{page.video}}" type="video/mp4">
     </video>
   {% else %}
-    <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url({{ site.baseurl }}img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
+    <div class="post-wide-hero {{page.uid}}-hero" style="background-image:url({{ site.baseurl }}/img/{{page.uid}}/hero.jpg); background-color:{{page.hero-bg-color}}"></div>
   {% endif %}
   <div class="post post-wide">
     <div class="project-description">
@@ -62,8 +62,6 @@ layout: default
     {{ content }}
   </div>
 </div>
-
-
 
 {% if page.next.url %}
   <a href="{{page.next.url}}" title="{{page.next.title}}" class="next-project target"></a>

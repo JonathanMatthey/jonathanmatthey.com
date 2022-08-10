@@ -20,7 +20,7 @@ contribution:
 ---
 
 <div class="showcase">
-	<img src="/img/dasani-facebook-app/dasani-water-1.jpg" alt="dasani-water"><br/>
-	<img src="/img/dasani-facebook-app/dasani-water-2.jpg" alt="dasani-water"><br/>
-	<img src="/img/dasani-facebook-app/dasani-water-3.jpg" alt="dasani-water">
+	<img src="{{ site.baseurl }}/img/dasani-facebook-app/dasani-water-1.jpg" alt="dasani-water"><br/>
+	<img src="{{ site.baseurl }}/img/dasani-facebook-app/dasani-water-2.jpg" alt="dasani-water"><br/>
+	<img src="{{ site.baseurl }}/img/dasani-facebook-app/dasani-water-3.jpg" alt="dasani-water">
 </div>

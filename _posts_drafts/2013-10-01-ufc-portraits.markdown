@@ -17,6 +17,6 @@ categories: inprogress
 </p>
 
 <div class="showcase">
-  <img src="/img/portraits/1.jpg" alt="1">
+  <img src="{{ site.baseurl }}/img/portraits/1.jpg" alt="1">
 </div>
 

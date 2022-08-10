@@ -26,9 +26,9 @@ contribution:
 ---
 
 <div class="showcase">
-  <img src="/img/gotryiton/gtio-product-rec.jpg" alt="gtio-product-rec">
-  <img src="/img/gotryiton/gtio-product-rec-2.jpg" alt="gtio-product-rec-2">
-	<img src="/img/gotryiton/gtio-redesign.jpg" alt="gtio-redesign">
-	<img src="/img/gotryiton/gtio-redesign-2.jpg" alt="gtio-redesign">
-	<img src="/img/gotryiton/gtio-redesign-3.jpg" alt="gtio-redesign">
+  <img src="{{ site.baseurl }}/img/gotryiton/gtio-product-rec.jpg" alt="gtio-product-rec">
+  <img src="{{ site.baseurl }}/img/gotryiton/gtio-product-rec-2.jpg" alt="gtio-product-rec-2">
+	<img src="{{ site.baseurl }}/img/gotryiton/gtio-redesign.jpg" alt="gtio-redesign">
+	<img src="{{ site.baseurl }}/img/gotryiton/gtio-redesign-2.jpg" alt="gtio-redesign">
+	<img src="{{ site.baseurl }}/img/gotryiton/gtio-redesign-3.jpg" alt="gtio-redesign">
 </div>

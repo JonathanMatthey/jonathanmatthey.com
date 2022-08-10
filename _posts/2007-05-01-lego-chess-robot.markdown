@@ -22,5 +22,5 @@ contribution:
 ---
 
 <div class="showcase">
-	<img src="/img/lego-chess-robot/lego-chess-robot1.jpg" alt="lego-chess-robot-1">
+	<img src="{{ site.baseurl }}/img/lego-chess-robot/lego-chess-robot1.jpg" alt="lego-chess-robot-1">
 </div>

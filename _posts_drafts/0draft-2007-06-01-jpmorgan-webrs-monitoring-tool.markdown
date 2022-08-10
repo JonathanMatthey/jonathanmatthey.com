@@ -25,6 +25,6 @@ contribution:
 <p class="meta">Client: <strong>JPMorganChase</strong> | Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>
 
 <div class="showcase">
-	<img src="/img/jpmorgan-monitoring-system/webrs1.jpg" alt="jpmorgan-monitoring-system-1">
-	<img src="/img/jpmorgan-monitoring-system/webrs2.jpg" alt="jpmorgan-monitoring-system-2">
+	<img src="{{ site.baseurl }}/img/jpmorgan-monitoring-system/webrs1.jpg" alt="jpmorgan-monitoring-system-1">
+	<img src="{{ site.baseurl }}/img/jpmorgan-monitoring-system/webrs2.jpg" alt="jpmorgan-monitoring-system-2">
 </div>

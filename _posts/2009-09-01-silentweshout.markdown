@@ -18,8 +18,8 @@ contribution:
 ---
 
 <div class="showcase">
-	<img src="/img/silentweshout/silentweshout0.jpg" alt="silentweshout-1">
-	<img src="/img/silentweshout/silentweshout1.jpg" alt="silentweshout-2">
-	<img src="/img/silentweshout/silentweshout2.jpg" alt="silentweshout-3">
-	<img src="/img/silentweshout/silentweshout3.jpg" alt="silentweshout-4">
+	<img src="{{ site.baseurl }}/img/silentweshout/silentweshout0.jpg" alt="silentweshout-1">
+	<img src="{{ site.baseurl }}/img/silentweshout/silentweshout1.jpg" alt="silentweshout-2">
+	<img src="{{ site.baseurl }}/img/silentweshout/silentweshout2.jpg" alt="silentweshout-3">
+	<img src="{{ site.baseurl }}/img/silentweshout/silentweshout3.jpg" alt="silentweshout-4">
 </div>

@@ -29,6 +29,6 @@ contribution:
 <p class="meta">Date: <strong>{{ page.date | date: "%b %Y" }}</strong></p>
 
 <div class="showcase">
-	<img src="/img/gotryiton-ios-app/gtio-product-rec.jpg" alt="gtio-product-rec">
-	<img src="/img/gotryiton-ios-app/gtio-product-rec-2.jpg" alt="gtio-product-rec-2">
+	<img src="{{ site.baseurl }}/img/gotryiton-ios-app/gtio-product-rec.jpg" alt="gtio-product-rec">
+	<img src="{{ site.baseurl }}/img/gotryiton-ios-app/gtio-product-rec-2.jpg" alt="gtio-product-rec-2">
 </div>

@@ -37,5 +37,5 @@ contribution:
   <br/>
   <br/>
   <h3>Screenshots</h3>
-  <img src="/img/live365/live365-1.jpg" alt="live365-1">
+  <img src="{{ site.baseurl }}/img/live365/live365-1.jpg" alt="live365-1">
 </div>

@@ -23,9 +23,9 @@ contribution:
   <div class="videoWrapper">
     <iframe src="//player.vimeo.com/video/71510303" width="1000" height="560" frameborder="0"> </iframe>
   </div>
-  <img src="/img/beatsbydre/beats1.jpg" alt="beats1">
-  <img src="/img/beatsbydre/beats2.jpg" alt="beats2">
-  <img src="/img/beatsbydre/beats4.jpg" alt="beats4">
-  <img src="/img/beatsbydre/beats5.jpg" alt="beats5">
-  <img src="/img/beatsbydre/beats3.jpg" alt="beats3">
+  <img src="{{ site.baseurl }}/img/beatsbydre/beats1.jpg" alt="beats1">
+  <img src="{{ site.baseurl }}/img/beatsbydre/beats2.jpg" alt="beats2">
+  <img src="{{ site.baseurl }}/img/beatsbydre/beats4.jpg" alt="beats4">
+  <img src="{{ site.baseurl }}/img/beatsbydre/beats5.jpg" alt="beats5">
+  <img src="{{ site.baseurl }}/img/beatsbydre/beats3.jpg" alt="beats3">
 </div>

@@ -22,15 +22,15 @@ contribution:
 ---
 
 <div class="showcase">
-  <img src="/img/h1tchr-spotify-app/1.png" alt="h1tchr-spotify-app-1">
+  <img src="{{ site.baseurl }}/img/h1tchr-spotify-app/1.png" alt="h1tchr-spotify-app-1">
   <h2>
     Before
   </h2>
-  <img src="/img/h1tchr-spotify-app/2.png" alt="h1tchr-spotify-app-2">
-  <img src="/img/h1tchr-spotify-app/3.jpg" alt="h1tchr-spotify-app-3">
+  <img src="{{ site.baseurl }}/img/h1tchr-spotify-app/2.png" alt="h1tchr-spotify-app-2">
+  <img src="{{ site.baseurl }}/img/h1tchr-spotify-app/3.jpg" alt="h1tchr-spotify-app-3">
 
   <h2>
     After
   </h2>
-  <img src="/img/h1tchr-spotify-app/4.jpg" alt="h1tchr-spotify-app-4">
+  <img src="{{ site.baseurl }}/img/h1tchr-spotify-app/4.jpg" alt="h1tchr-spotify-app-4">
 </div>

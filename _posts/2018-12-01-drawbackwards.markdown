@@ -36,12 +36,12 @@ contribution:
   <br/>
   <br/>
   <h3>Screenshots</h3>
-  <img src="/img/drawbackwards/dme1.jpg" alt="dme1">
-  <img src="/img/drawbackwards/dme2.jpg" alt="dme2">
-  <img src="/img/drawbackwards/dme3.jpg" alt="dme3">
-  <img src="/img/drawbackwards/dme4.jpg" alt="dme4">
-  <img src="/img/drawbackwards/dme5.jpg" alt="dme5">
-  <img src="/img/drawbackwards/dme6.jpg" alt="dme6">
-  <img src="/img/drawbackwards/dme7.jpg" alt="dme7">
-  <img src="/img/drawbackwards/dme8.jpg" alt="dme8">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme1.jpg" alt="dme1">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme2.jpg" alt="dme2">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme3.jpg" alt="dme3">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme4.jpg" alt="dme4">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme5.jpg" alt="dme5">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme6.jpg" alt="dme6">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme7.jpg" alt="dme7">
+  <img src="{{ site.baseurl }}/img/drawbackwards/dme8.jpg" alt="dme8">
 </div>

@@ -21,7 +21,7 @@ contribution:
 ---
 
 <div class="showcase">
-	<img src="/img/rew-ca-website/rewca1.jpg" alt="rewca1">
-	<img src="/img/rew-ca-website/rewca2.jpg" alt="rewca2">
-	<img src="/img/rew-ca-website/rewca3.jpg" alt="rewca3">
+	<img src="{{ site.baseurl }}/img/rew-ca-website/rewca1.jpg" alt="rewca1">
+	<img src="{{ site.baseurl }}/img/rew-ca-website/rewca2.jpg" alt="rewca2">
+	<img src="{{ site.baseurl }}/img/rew-ca-website/rewca3.jpg" alt="rewca3">
 </div>

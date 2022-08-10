@@ -26,10 +26,10 @@ contribution:
   <div class="videoWrapper">
     <iframe src="//player.vimeo.com/video/71517474" width="1000" height="560" frameborder="0"> </iframe>
   </div>
-  <img src="/img/nike-com-internal-playbook/1.jpg" alt="1">
-  <img src="/img/nike-com-internal-playbook/2.jpg" alt="2">
-  <img src="/img/nike-com-internal-playbook/3.jpg" alt="3">
-  <img src="/img/nike-com-internal-playbook/4.jpg" alt="4">
-  <img src="/img/nike-com-internal-playbook/5.jpg" alt="5">
-  <img src="/img/nike-com-internal-playbook/6.jpg" alt="6">
+  <img src="{{ site.baseurl }}/img/nike-com-internal-playbook/1.jpg" alt="1">
+  <img src="{{ site.baseurl }}/img/nike-com-internal-playbook/2.jpg" alt="2">
+  <img src="{{ site.baseurl }}/img/nike-com-internal-playbook/3.jpg" alt="3">
+  <img src="{{ site.baseurl }}/img/nike-com-internal-playbook/4.jpg" alt="4">
+  <img src="{{ site.baseurl }}/img/nike-com-internal-playbook/5.jpg" alt="5">
+  <img src="{{ site.baseurl }}/img/nike-com-internal-playbook/6.jpg" alt="6">
 </div>

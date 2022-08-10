@@ -20,9 +20,9 @@ contribution:
 ---
 
 <div class="showcase">
-<img src="/img/philterit-gmail-plugin/1.jpg" alt="philterit-gmail-plugin-1">
-<img src="/img/philterit-gmail-plugin/2.jpg" alt="philterit-gmail-plugin-2">
-<img src="/img/philterit-gmail-plugin/3.jpg" alt="philterit-gmail-plugin-3">
+<img src="{{ site.baseurl }}/img/philterit-gmail-plugin/1.jpg" alt="philterit-gmail-plugin-1">
+<img src="{{ site.baseurl }}/img/philterit-gmail-plugin/2.jpg" alt="philterit-gmail-plugin-2">
+<img src="{{ site.baseurl }}/img/philterit-gmail-plugin/3.jpg" alt="philterit-gmail-plugin-3">
 <h2>Redesigned launch page</h2>
-<img src="/img/philterit-gmail-plugin/4.jpg" alt="philterit-gmail-plugin-4">
+<img src="{{ site.baseurl }}/img/philterit-gmail-plugin/4.jpg" alt="philterit-gmail-plugin-4">
 </div>

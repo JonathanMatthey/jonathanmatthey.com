@@ -32,7 +32,7 @@ contribution:
   <br/>
   <br/>
   <h3>Screenshots</h3>
-  <img src="/img/kenhub/kenhub1.jpg" alt="kenhub1">
-  <img src="/img/kenhub/kenhub2.jpg" alt="kenhub2">
-  <img src="/img/kenhub/kenhub3.jpg" alt="kenhub3">
+  <img src="{{ site.baseurl }}/img/kenhub/kenhub1.jpg" alt="kenhub1">
+  <img src="{{ site.baseurl }}/img/kenhub/kenhub2.jpg" alt="kenhub2">
+  <img src="{{ site.baseurl }}/img/kenhub/kenhub3.jpg" alt="kenhub3">
 </div>

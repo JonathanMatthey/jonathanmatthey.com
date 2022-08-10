@@ -22,13 +22,13 @@ contribution:
 ---
 
 <div class="showcase">
-  <img src="/img/jpmorganchase/riskpnl.jpg" alt="risk-pnl">
+  <img src="{{ site.baseurl }}/img/jpmorganchase/riskpnl.jpg" alt="risk-pnl">
 
   <h3>Trade Capture System</h3>
-  <img src="/img/jpmorganchase/webrs1.jpg" alt="jpmorgan-monitoring-system-1">
-  <img src="/img/jpmorganchase/webrs2.jpg" alt="jpmorgan-monitoring-system-2">
+  <img src="{{ site.baseurl }}/img/jpmorganchase/webrs1.jpg" alt="jpmorgan-monitoring-system-1">
+  <img src="{{ site.baseurl }}/img/jpmorganchase/webrs2.jpg" alt="jpmorgan-monitoring-system-2">
 
   <h3>WebRS Monitoring System</h3>
-  <img src="/img/jpmorganchase/webrs1.jpg" alt="jpmorgan-monitoring-system-1">
-  <img src="/img/jpmorganchase/webrs2.jpg" alt="jpmorgan-monitoring-system-2">
+  <img src="{{ site.baseurl }}/img/jpmorganchase/webrs1.jpg" alt="jpmorgan-monitoring-system-1">
+  <img src="{{ site.baseurl }}/img/jpmorganchase/webrs2.jpg" alt="jpmorgan-monitoring-system-2">
 </div>

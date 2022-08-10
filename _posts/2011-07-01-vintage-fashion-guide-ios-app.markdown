@@ -17,7 +17,7 @@ contribution: This was my first iPad project, using MapKit and CoreData.  Planne
 ---
 
 <div class="showcase">
-	<img src="/img/vintage-fashion-guide-ios-app/vintage-fashion-mag-london.jpg" alt="vintage-fashion-mag-london">
+	<img src="{{ site.baseurl }}/img/vintage-fashion-guide-ios-app/vintage-fashion-mag-london.jpg" alt="vintage-fashion-mag-london">
   <br/>
   <div class="videoWrapper">
     <iframe src="//player.vimeo.com/video/28765397" width="500" height="375" frameborder="0"> </iframe>

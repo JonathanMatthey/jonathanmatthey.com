@@ -37,5 +37,5 @@ contribution:
     <source src="/video/eko/coca-cola-trailer.mp4" type='video/mp4' >
   </video>
 
-  <img src="/img/eko/unity-poc.png" alt="interlude-unity-poc">
+  <img src="{{ site.baseurl }}/img/eko/unity-poc.png" alt="interlude-unity-poc">
 </div>

@@ -34,9 +34,9 @@ contribution:
   <br/>
   <br/>
   <h3>Screenshots</h3>
-  <img src="/img/skedsocial/sked1.png" alt="sked">
-  <img src="/img/skedsocial/sked2.png" alt="sked">
-  <img src="/img/skedsocial/sked3.png" alt="sked">
-  <img src="/img/skedsocial/sked4.png" alt="sked">
-  <img src="/img/skedsocial/sked5.png" alt="sked">
+  <img src="{{ site.baseurl }}/img/skedsocial/sked1.png" alt="sked">
+  <img src="{{ site.baseurl }}/img/skedsocial/sked2.png" alt="sked">
+  <img src="{{ site.baseurl }}/img/skedsocial/sked3.png" alt="sked">
+  <img src="{{ site.baseurl }}/img/skedsocial/sked4.png" alt="sked">
+  <img src="{{ site.baseurl }}/img/skedsocial/sked5.png" alt="sked">
 </div>

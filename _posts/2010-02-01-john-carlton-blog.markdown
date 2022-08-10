@@ -18,5 +18,5 @@ contribution: Redesigned John Carlton’s Copywriting blog, giving it a professi
 ---
 
 <div class="showcase">
-	<img src="/img/john-carlton-blog/1.png" alt="john-carlton-1">
+	<img src="{{ site.baseurl }}/img/john-carlton-blog/1.png" alt="john-carlton-1">
 </div>

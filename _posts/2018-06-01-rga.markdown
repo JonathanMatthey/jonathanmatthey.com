@@ -28,6 +28,6 @@ Redesigned the rga.ie page, produced all the photography and video content.  Ful
 <br/>
 <br/>
   <h3>Screenshots</h3>
-  <img src="/img/rga/rga1.jpg" alt="rga1">
-  <img src="/img/rga/rga2.jpg" alt="rga2">
+  <img src="{{ site.baseurl }}/img/rga/rga1.jpg" alt="rga1">
+  <img src="{{ site.baseurl }}/img/rga/rga2.jpg" alt="rga2">
 </div>

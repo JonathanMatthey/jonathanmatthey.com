@@ -23,16 +23,16 @@ contribution:
 ---
 
 <div class="showcase">
-  <img src="/img/hipstamatic-oggl/web_PRO_final.jpg" alt="web-pro-final">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/web_PRO_final.jpg" alt="web-pro-final">
 
   <h2>
     Hipstamatic Oggl Community Site
   </h2>
 
-  <img src="/img/hipstamatic-oggl/mob_profile.jpg" alt="mob-profile">
-  <img src="/img/hipstamatic-oggl/mob_zoom.jpg" alt="mob-zoom">
-  <img src="/img/hipstamatic-oggl/tab_profile.jpg" alt="tab-profile">
-  <img src="/img/hipstamatic-oggl/tab_zoom_curated.jpg" alt="tab-zoom">
-  <img src="/img/hipstamatic-oggl/Web_profile.jpg" alt="web-profile">
-  <img src="/img/hipstamatic-oggl/Web_zoom_curated.jpg" alt="web-zoom-curated">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/mob_profile.jpg" alt="mob-profile">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/mob_zoom.jpg" alt="mob-zoom">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/tab_profile.jpg" alt="tab-profile">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/tab_zoom_curated.jpg" alt="tab-zoom">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/Web_profile.jpg" alt="web-profile">
+  <img src="{{ site.baseurl }}/img/hipstamatic-oggl/Web_zoom_curated.jpg" alt="web-zoom-curated">
 </div>
